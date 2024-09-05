@@ -17,11 +17,6 @@ import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
-//
-//import com.aventstack.extentreports.Status;
-//import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
-//import com.aventstack.extentreports.reporter.configuration.Theme;
-
 //Testng to listen to this extent reports.
 public class ExtentTestNGITestListener implements IReporter {
     public ExtentReports extent;  

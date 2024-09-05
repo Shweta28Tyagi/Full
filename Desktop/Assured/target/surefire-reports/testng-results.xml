@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="130" passed="129" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-05T13:45:05 IST" name="Suite" finished-at="2024-09-05T13:46:25 IST" duration-ms="80482">
+    <groups>
+    </groups>
+    <test started-at="2024-09-05T13:45:05 IST" name="Test" finished-at="2024-09-05T13:46:25 IST" duration-ms="80482">
+      <class name="APITestCase.ManageUser">
+        <test-method is-config="true" signature="setup()[pri:0, instance:APITestCase.ManageUser@66d3eec0]" started-at="2024-09-05T13:45:12 IST" name="setup" finished-at="2024-09-05T13:45:12 IST" duration-ms="482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AddUser()[pri:0, instance:APITestCase.ManageUser@66d3eec0]" started-at="2024-09-05T13:45:12 IST" name="AddUser" finished-at="2024-09-05T13:45:13 IST" duration-ms="548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddUser -->
+        <test-method signature="ExportUser()[pri:0, instance:APITestCase.ManageUser@66d3eec0]" started-at="2024-09-05T13:45:13 IST" name="ExportUser" finished-at="2024-09-05T13:45:14 IST" duration-ms="1089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExportUser -->
+        <test-method signature="GetBranches()[pri:0, instance:APITestCase.ManageUser@66d3eec0]" started-at="2024-09-05T13:45:14 IST" name="GetBranches" finished-at="2024-09-05T13:45:14 IST" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetBranches -->
+        <test-method signature="GetUser()[pri:0, instance:APITestCase.ManageUser@66d3eec0]" started-at="2024-09-05T13:45:14 IST" name="GetUser" finished-at="2024-09-05T13:45:16 IST" duration-ms="1716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetUser -->
+        <test-method signature="GetVendorCompany()[pri:0, instance:APITestCase.ManageUser@66d3eec0]" started-at="2024-09-05T13:45:16 IST" name="GetVendorCompany" finished-at="2024-09-05T13:45:16 IST" duration-ms="423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetVendorCompany -->
+        <test-method signature="ResendPassword()[pri:0, instance:APITestCase.ManageUser@66d3eec0]" started-at="2024-09-05T13:45:16 IST" name="ResendPassword" finished-at="2024-09-05T13:45:17 IST" duration-ms="950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResendPassword -->
+        <test-method signature="ResetPassword()[pri:0, instance:APITestCase.ManageUser@66d3eec0]" started-at="2024-09-05T13:45:17 IST" name="ResetPassword" finished-at="2024-09-05T13:45:17 IST" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResetPassword -->
+        <test-method signature="RoleList()[pri:0, instance:APITestCase.ManageUser@66d3eec0]" started-at="2024-09-05T13:45:17 IST" name="RoleList" finished-at="2024-09-05T13:45:18 IST" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RoleList -->
+        <test-method signature="UpdateUser()[pri:0, instance:APITestCase.ManageUser@66d3eec0]" started-at="2024-09-05T13:45:18 IST" name="UpdateUser" finished-at="2024-09-05T13:45:18 IST" duration-ms="462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateUser -->
+        <test-method signature="UpdateUserStatus()[pri:0, instance:APITestCase.ManageUser@66d3eec0]" started-at="2024-09-05T13:45:18 IST" name="UpdateUserStatus" finished-at="2024-09-05T13:45:18 IST" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateUserStatus -->
+        <test-method signature="UploadUserProfileImage()[pri:0, instance:APITestCase.ManageUser@66d3eec0]" started-at="2024-09-05T13:45:18 IST" name="UploadUserProfileImage" finished-at="2024-09-05T13:45:19 IST" duration-ms="382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UploadUserProfileImage -->
+        <test-method signature="UsersCount()[pri:0, instance:APITestCase.ManageUser@66d3eec0]" started-at="2024-09-05T13:45:19 IST" name="UsersCount" finished-at="2024-09-05T13:45:19 IST" duration-ms="671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UsersCount -->
+        <test-method is-config="true" signature="close()[pri:0, instance:APITestCase.ManageUser@66d3eec0]" started-at="2024-09-05T13:45:19 IST" name="close" finished-at="2024-09-05T13:45:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- APITestCase.ManageUser -->
+      <class name="MSNagile.Login">
+        <test-method is-config="true" signature="setup()[pri:0, instance:MSNagile.Login@6fc7e828]" started-at="2024-09-05T13:46:03 IST" name="setup" finished-at="2024-09-05T13:46:03 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ForgotPassword()[pri:0, instance:MSNagile.Login@6fc7e828]" started-at="2024-09-05T13:46:03 IST" name="ForgotPassword" finished-at="2024-09-05T13:46:08 IST" duration-ms="5069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgotPassword -->
+        <test-method signature="Login()[pri:0, instance:MSNagile.Login@6fc7e828]" started-at="2024-09-05T13:46:08 IST" name="Login" finished-at="2024-09-05T13:46:10 IST" duration-ms="1466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="Logout()[pri:0, instance:MSNagile.Login@6fc7e828]" started-at="2024-09-05T13:46:10 IST" name="Logout" finished-at="2024-09-05T13:46:10 IST" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method signature="Registration()[pri:0, instance:MSNagile.Login@6fc7e828]" started-at="2024-09-05T13:46:10 IST" name="Registration" finished-at="2024-09-05T13:46:16 IST" duration-ms="5924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method signature="ResetPassword()[pri:0, instance:MSNagile.Login@6fc7e828]" started-at="2024-09-05T13:46:16 IST" name="ResetPassword" finished-at="2024-09-05T13:46:16 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResetPassword -->
+        <test-method signature="EmailVerification()[pri:0, instance:MSNagile.Login@6fc7e828]" started-at="2024-09-05T13:46:16 IST" name="EmailVerification" finished-at="2024-09-05T13:46:16 IST" depends-on-methods="MSNagile.Login.Login" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmailVerification -->
+        <test-method signature="GetProfile()[pri:0, instance:MSNagile.Login@6fc7e828]" started-at="2024-09-05T13:46:16 IST" name="GetProfile" finished-at="2024-09-05T13:46:17 IST" depends-on-methods="MSNagile.Login.Login" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetProfile -->
+        <test-method signature="RefreshToken()[pri:0, instance:MSNagile.Login@6fc7e828]" started-at="2024-09-05T13:46:17 IST" name="RefreshToken" finished-at="2024-09-05T13:46:17 IST" depends-on-methods="MSNagile.Login.Login" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RefreshToken -->
+        <test-method is-config="true" signature="close()[pri:0, instance:MSNagile.Login@6fc7e828]" started-at="2024-09-05T13:46:17 IST" name="close" finished-at="2024-09-05T13:46:17 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- MSNagile.Login -->
+      <class name="APITestCase.RolesAndPermissions">
+        <test-method is-config="true" signature="setup()[pri:0, instance:APITestCase.RolesAndPermissions@7747cc1b]" started-at="2024-09-05T13:45:55 IST" name="setup" finished-at="2024-09-05T13:45:55 IST" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="RoleList()[pri:0, instance:APITestCase.RolesAndPermissions@7747cc1b]" started-at="2024-09-05T13:45:55 IST" name="RoleList" finished-at="2024-09-05T13:45:56 IST" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RoleList -->
+        <test-method signature="createRole()[pri:0, instance:APITestCase.RolesAndPermissions@7747cc1b]" started-at="2024-09-05T13:45:56 IST" name="createRole" finished-at="2024-09-05T13:45:56 IST" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createRole -->
+        <test-method signature="deleteRole()[pri:0, instance:APITestCase.RolesAndPermissions@7747cc1b]" started-at="2024-09-05T13:45:56 IST" name="deleteRole" finished-at="2024-09-05T13:45:56 IST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteRole -->
+        <test-method signature="editRole()[pri:0, instance:APITestCase.RolesAndPermissions@7747cc1b]" started-at="2024-09-05T13:45:56 IST" name="editRole" finished-at="2024-09-05T13:45:56 IST" duration-ms="370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editRole -->
+        <test-method signature="getRoles()[pri:0, instance:APITestCase.RolesAndPermissions@7747cc1b]" started-at="2024-09-05T13:45:56 IST" name="getRoles" finished-at="2024-09-05T13:45:57 IST" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRoles -->
+        <test-method signature="editRoleName()[pri:0, instance:APITestCase.RolesAndPermissions@7747cc1b]" started-at="2024-09-05T13:45:57 IST" name="editRoleName" finished-at="2024-09-05T13:45:57 IST" depends-on-methods="APITestCase.RolesAndPermissions.createRole" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editRoleName -->
+        <test-method signature="getRoleDetail()[pri:0, instance:APITestCase.RolesAndPermissions@7747cc1b]" started-at="2024-09-05T13:45:57 IST" name="getRoleDetail" finished-at="2024-09-05T13:45:57 IST" depends-on-methods="APITestCase.RolesAndPermissions.createRole" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRoleDetail -->
+        <test-method is-config="true" signature="close()[pri:0, instance:APITestCase.RolesAndPermissions@7747cc1b]" started-at="2024-09-05T13:45:57 IST" name="close" finished-at="2024-09-05T13:45:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- APITestCase.RolesAndPermissions -->
+      <class name="APITestCase.Login">
+        <test-method is-config="true" signature="setup()[pri:0, instance:APITestCase.Login@1a18644]" started-at="2024-09-05T13:45:05 IST" name="setup" finished-at="2024-09-05T13:45:08 IST" duration-ms="3292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="OtpVerification()[pri:0, instance:APITestCase.Login@1a18644]" started-at="2024-09-05T13:45:08 IST" name="OtpVerification" finished-at="2024-09-05T13:45:09 IST" duration-ms="518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OtpVerification -->
+        <test-method signature="ResetPassword()[pri:0, instance:APITestCase.Login@1a18644]" started-at="2024-09-05T13:45:09 IST" name="ResetPassword" finished-at="2024-09-05T13:45:09 IST" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResetPassword -->
+        <test-method signature="LoginWithOtp()[pri:0, instance:APITestCase.Login@1a18644]" started-at="2024-09-05T13:45:09 IST" name="LoginWithOtp" finished-at="2024-09-05T13:45:10 IST" duration-ms="1022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithOtp -->
+        <test-method signature="LoginWithPassword()[pri:0, instance:APITestCase.Login@1a18644]" started-at="2024-09-05T13:45:10 IST" name="LoginWithPassword" finished-at="2024-09-05T13:45:11 IST" duration-ms="607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithPassword -->
+        <test-method signature="Logout()[pri:0, instance:APITestCase.Login@1a18644]" started-at="2024-09-05T13:45:11 IST" name="Logout" finished-at="2024-09-05T13:45:11 IST" duration-ms="573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method signature="UserProfile()[pri:0, instance:APITestCase.Login@1a18644]" started-at="2024-09-05T13:45:11 IST" name="UserProfile" finished-at="2024-09-05T13:45:11 IST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserProfile -->
+        <test-method signature="TestResetPassword()[pri:0, instance:APITestCase.Login@1a18644]" started-at="2024-09-05T13:45:12 IST" name="TestResetPassword" finished-at="2024-09-05T13:45:12 IST" depends-on-methods="APITestCase.Login.ResetPassword" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResetPassword -->
+        <test-method is-config="true" signature="close()[pri:0, instance:APITestCase.Login@1a18644]" started-at="2024-09-05T13:45:12 IST" name="close" finished-at="2024-09-05T13:45:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- APITestCase.Login -->
+      <class name="APITestCase.ManageInventory">
+        <test-method is-config="true" signature="setup()[pri:0, instance:APITestCase.ManageInventory@1af2d44a]" started-at="2024-09-05T13:45:34 IST" name="setup" finished-at="2024-09-05T13:45:34 IST" duration-ms="378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AddInventory()[pri:0, instance:APITestCase.ManageInventory@1af2d44a]" started-at="2024-09-05T13:45:34 IST" name="AddInventory" finished-at="2024-09-05T13:45:34 IST" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddInventory -->
+        <test-method signature="DeleteImage()[pri:0, instance:APITestCase.ManageInventory@1af2d44a]" started-at="2024-09-05T13:45:34 IST" name="DeleteImage" finished-at="2024-09-05T13:45:36 IST" duration-ms="1449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteImage -->
+        <test-method signature="GetProductDetails()[pri:0, instance:APITestCase.ManageInventory@1af2d44a]" started-at="2024-09-05T13:45:36 IST" name="GetProductDetails" finished-at="2024-09-05T13:45:36 IST" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetProductDetails -->
+        <test-method signature="UpdateProduct()[pri:0, instance:APITestCase.ManageInventory@1af2d44a]" started-at="2024-09-05T13:45:36 IST" name="UpdateProduct" finished-at="2024-09-05T13:45:36 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateProduct -->
+        <test-method signature="AddProductImage()[pri:0, instance:APITestCase.ManageInventory@1af2d44a]" started-at="2024-09-05T13:45:36 IST" name="AddProductImage" finished-at="2024-09-05T13:45:37 IST" depends-on-methods="APITestCase.ManageInventory.AddInventory" duration-ms="711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddProductImage -->
+        <test-method signature="GetInventory()[pri:0, instance:APITestCase.ManageInventory@1af2d44a]" started-at="2024-09-05T13:45:37 IST" name="GetInventory" finished-at="2024-09-05T13:45:37 IST" depends-on-methods="APITestCase.ManageInventory.GetProductDetails" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetInventory -->
+        <test-method is-config="true" signature="close()[pri:0, instance:APITestCase.ManageInventory@1af2d44a]" started-at="2024-09-05T13:45:37 IST" name="close" finished-at="2024-09-05T13:45:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- APITestCase.ManageInventory -->
+      <class name="APITestCase.ManageProfile">
+        <test-method is-config="true" signature="setup()[pri:0, instance:APITestCase.ManageProfile@2567c091]" started-at="2024-09-05T13:45:54 IST" name="setup" finished-at="2024-09-05T13:45:54 IST" duration-ms="289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testChangePassword()[pri:0, instance:APITestCase.ManageProfile@2567c091]" started-at="2024-09-05T13:45:54 IST" name="testChangePassword" finished-at="2024-09-05T13:45:54 IST" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangePassword -->
+        <test-method signature="testGetUserProfile()[pri:0, instance:APITestCase.ManageProfile@2567c091]" started-at="2024-09-05T13:45:54 IST" name="testGetUserProfile" finished-at="2024-09-05T13:45:54 IST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserProfile -->
+        <test-method signature="testRemoveProfileImage()[pri:0, instance:APITestCase.ManageProfile@2567c091]" started-at="2024-09-05T13:45:54 IST" name="testRemoveProfileImage" finished-at="2024-09-05T13:45:55 IST" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveProfileImage -->
+        <test-method signature="testUploadProfileImage()[pri:0, instance:APITestCase.ManageProfile@2567c091]" started-at="2024-09-05T13:45:55 IST" name="testUploadProfileImage" finished-at="2024-09-05T13:45:55 IST" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUploadProfileImage -->
+        <test-method signature="testUpdateUserProfile()[pri:0, instance:APITestCase.ManageProfile@2567c091]" started-at="2024-09-05T13:45:55 IST" name="testUpdateUserProfile" finished-at="2024-09-05T13:45:55 IST" depends-on-methods="APITestCase.ManageProfile.testGetUserProfile" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUserProfile -->
+        <test-method is-config="true" signature="close()[pri:0, instance:APITestCase.ManageProfile@2567c091]" started-at="2024-09-05T13:45:55 IST" name="close" finished-at="2024-09-05T13:45:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- APITestCase.ManageProfile -->
+      <class name="MSNagile.SetupConfiguration">
+        <test-method is-config="true" signature="setup()[pri:0, instance:MSNagile.SetupConfiguration@76eadc5a]" started-at="2024-09-05T13:46:24 IST" name="setup" finished-at="2024-09-05T13:46:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Login()[pri:0, instance:MSNagile.SetupConfiguration@76eadc5a]" started-at="2024-09-05T13:46:24 IST" name="Login" finished-at="2024-09-05T13:46:24 IST" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="CreateFields()[pri:0, instance:MSNagile.SetupConfiguration@76eadc5a]" started-at="2024-09-05T13:46:24 IST" name="CreateFields" finished-at="2024-09-05T13:46:24 IST" depends-on-methods="MSNagile.SetupConfiguration.Login" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateFields -->
+        <test-method signature="CreateIssueType()[pri:0, instance:MSNagile.SetupConfiguration@76eadc5a]" started-at="2024-09-05T13:46:24 IST" name="CreateIssueType" finished-at="2024-09-05T13:46:24 IST" depends-on-methods="MSNagile.SetupConfiguration.Login" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateIssueType -->
+        <test-method signature="CreateStatus()[pri:0, instance:MSNagile.SetupConfiguration@76eadc5a]" started-at="2024-09-05T13:46:24 IST" name="CreateStatus" finished-at="2024-09-05T13:46:25 IST" depends-on-methods="MSNagile.SetupConfiguration.Login" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateStatus -->
+        <test-method signature="DeleteCustomIssueType()[pri:0, instance:MSNagile.SetupConfiguration@76eadc5a]" started-at="2024-09-05T13:46:25 IST" name="DeleteCustomIssueType" finished-at="2024-09-05T13:46:25 IST" depends-on-methods="MSNagile.SetupConfiguration.Login" duration-ms="129" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+JSON path message doesn't match.
+Expected: Successfully
+  Actual: Incorrect IssueType id
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+JSON path message doesn't match.
+Expected: Successfully
+  Actual: Incorrect IssueType id
+
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+at jdk.internal.reflect.GeneratedMethodAccessor71.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:270)
+at io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:117)
+at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
+at MSNagile.SetupConfiguration.DeleteCustomIssueType(SetupConfiguration.java:185)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteCustomIssueType -->
+        <test-method signature="DeleteStatus()[pri:0, instance:MSNagile.SetupConfiguration@76eadc5a]" started-at="2024-09-05T13:46:25 IST" name="DeleteStatus" finished-at="2024-09-05T13:46:25 IST" depends-on-methods="MSNagile.SetupConfiguration.Login" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteStatus -->
+        <test-method signature="GetAllStatus()[pri:0, instance:MSNagile.SetupConfiguration@76eadc5a]" started-at="2024-09-05T13:46:25 IST" name="GetAllStatus" finished-at="2024-09-05T13:46:25 IST" depends-on-methods="MSNagile.SetupConfiguration.Login" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetAllStatus -->
+        <test-method signature="GetOrgFields()[pri:0, instance:MSNagile.SetupConfiguration@76eadc5a]" started-at="2024-09-05T13:46:25 IST" name="GetOrgFields" finished-at="2024-09-05T13:46:25 IST" depends-on-methods="MSNagile.SetupConfiguration.Login" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetOrgFields -->
+        <test-method signature="GetOrgTags()[pri:0, instance:MSNagile.SetupConfiguration@76eadc5a]" started-at="2024-09-05T13:46:25 IST" name="GetOrgTags" finished-at="2024-09-05T13:46:25 IST" depends-on-methods="MSNagile.SetupConfiguration.Login" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetOrgTags -->
+        <test-method signature="GetSystemIssueType()[pri:0, instance:MSNagile.SetupConfiguration@76eadc5a]" started-at="2024-09-05T13:46:25 IST" name="GetSystemIssueType" finished-at="2024-09-05T13:46:25 IST" depends-on-methods="MSNagile.SetupConfiguration.Login" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetSystemIssueType -->
+        <test-method signature="GetSystemWorkflows()[pri:0, instance:MSNagile.SetupConfiguration@76eadc5a]" started-at="2024-09-05T13:46:25 IST" name="GetSystemWorkflows" finished-at="2024-09-05T13:46:25 IST" depends-on-methods="MSNagile.SetupConfiguration.Login" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetSystemWorkflows -->
+        <test-method is-config="true" signature="close()[pri:0, instance:MSNagile.SetupConfiguration@76eadc5a]" started-at="2024-09-05T13:46:25 IST" name="close" finished-at="2024-09-05T13:46:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- MSNagile.SetupConfiguration -->
+      <class name="MSNagile.ManageSubscription">
+        <test-method is-config="true" signature="setup()[pri:0, instance:MSNagile.ManageSubscription@2ce24a1a]" started-at="2024-09-05T13:46:17 IST" name="setup" finished-at="2024-09-05T13:46:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Login()[pri:0, instance:MSNagile.ManageSubscription@2ce24a1a]" started-at="2024-09-05T13:46:17 IST" name="Login" finished-at="2024-09-05T13:46:19 IST" duration-ms="2135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="GetActivePlan()[pri:0, instance:MSNagile.ManageSubscription@2ce24a1a]" started-at="2024-09-05T13:46:19 IST" name="GetActivePlan" finished-at="2024-09-05T13:46:20 IST" depends-on-methods="MSNagile.ManageSubscription.Login" duration-ms="848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetActivePlan -->
+        <test-method signature="GetConsumedStorage()[pri:0, instance:MSNagile.ManageSubscription@2ce24a1a]" started-at="2024-09-05T13:46:20 IST" name="GetConsumedStorage" finished-at="2024-09-05T13:46:21 IST" depends-on-methods="MSNagile.ManageSubscription.Login" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetConsumedStorage -->
+        <test-method signature="GetPaymentHistory()[pri:0, instance:MSNagile.ManageSubscription@2ce24a1a]" started-at="2024-09-05T13:46:21 IST" name="GetPaymentHistory" finished-at="2024-09-05T13:46:21 IST" depends-on-methods="MSNagile.ManageSubscription.Login" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetPaymentHistory -->
+        <test-method signature="SubscribePlan()[pri:0, instance:MSNagile.ManageSubscription@2ce24a1a]" started-at="2024-09-05T13:46:21 IST" name="SubscribePlan" finished-at="2024-09-05T13:46:21 IST" depends-on-methods="MSNagile.ManageSubscription.Login" duration-ms="386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubscribePlan -->
+        <test-method is-config="true" signature="close()[pri:0, instance:MSNagile.ManageSubscription@2ce24a1a]" started-at="2024-09-05T13:46:21 IST" name="close" finished-at="2024-09-05T13:46:21 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- MSNagile.ManageSubscription -->
+      <class name="APITestCase.ManageLead">
+        <test-method is-config="true" signature="setup()[pri:0, instance:APITestCase.ManageLead@1e04fa0a]" started-at="2024-09-05T13:45:19 IST" name="setup" finished-at="2024-09-05T13:45:21 IST" duration-ms="1222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AddLead()[pri:0, instance:APITestCase.ManageLead@1e04fa0a]" started-at="2024-09-05T13:45:21 IST" name="AddLead" finished-at="2024-09-05T13:45:21 IST" duration-ms="693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddLead -->
+        <test-method signature="AddLeadActivity()[pri:0, instance:APITestCase.ManageLead@1e04fa0a]" started-at="2024-09-05T13:45:21 IST" name="AddLeadActivity" finished-at="2024-09-05T13:45:22 IST" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddLeadActivity -->
+        <test-method signature="AddTaskForLead()[pri:0, instance:APITestCase.ManageLead@1e04fa0a]" started-at="2024-09-05T13:45:22 IST" name="AddTaskForLead" finished-at="2024-09-05T13:45:22 IST" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddTaskForLead -->
+        <test-method signature="CheckLeadNumbers()[pri:0, instance:APITestCase.ManageLead@1e04fa0a]" started-at="2024-09-05T13:45:22 IST" name="CheckLeadNumbers" finished-at="2024-09-05T13:45:22 IST" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLeadNumbers -->
+        <test-method signature="DeleteAttachment()[pri:0, instance:APITestCase.ManageLead@1e04fa0a]" started-at="2024-09-05T13:45:22 IST" name="DeleteAttachment" finished-at="2024-09-05T13:45:22 IST" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteAttachment -->
+        <test-method signature="ExportLeads()[pri:0, instance:APITestCase.ManageLead@1e04fa0a]" started-at="2024-09-05T13:45:22 IST" name="ExportLeads" finished-at="2024-09-05T13:45:26 IST" duration-ms="3431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExportLeads -->
+        <test-method signature="GetCity()[pri:0, instance:APITestCase.ManageLead@1e04fa0a]" started-at="2024-09-05T13:45:26 IST" name="GetCity" finished-at="2024-09-05T13:45:26 IST" duration-ms="292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetCity -->
+        <test-method signature="GetLeadActivity()[pri:0, instance:APITestCase.ManageLead@1e04fa0a]" started-at="2024-09-05T13:45:26 IST" name="GetLeadActivity" finished-at="2024-09-05T13:45:26 IST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetLeadActivity -->
+        <test-method signature="GetLeadDetails()[pri:0, instance:APITestCase.ManageLead@1e04fa0a]" started-at="2024-09-05T13:45:26 IST" name="GetLeadDetails" finished-at="2024-09-05T13:45:27 IST" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetLeadDetails -->
+        <test-method signature="GetLeadHistory()[pri:0, instance:APITestCase.ManageLead@1e04fa0a]" started-at="2024-09-05T13:45:27 IST" name="GetLeadHistory" finished-at="2024-09-05T13:45:27 IST" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetLeadHistory -->
+        <test-method signature="GetLeadOwner()[pri:0, instance:APITestCase.ManageLead@1e04fa0a]" started-at="2024-09-05T13:45:27 IST" name="GetLeadOwner" finished-at="2024-09-05T13:45:27 IST" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetLeadOwner -->
+        <test-method signature="GetLeadStage()[pri:0, instance:APITestCase.ManageLead@1e04fa0a]" started-at="2024-09-05T13:45:27 IST" name="GetLeadStage" finished-at="2024-09-05T13:45:27 IST" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetLeadStage -->
+        <test-method signature="GetLeadTask()[pri:0, instance:APITestCase.ManageLead@1e04fa0a]" started-at="2024-09-05T13:45:27 IST" name="GetLeadTask" finished-at="2024-09-05T13:45:28 IST" duration-ms="461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetLeadTask -->
+        <test-method signature="GetLeads()[pri:0, instance:APITestCase.ManageLead@1e04fa0a]" started-at="2024-09-05T13:45:28 IST" name="GetLeads" finished-at="2024-09-05T13:45:31 IST" duration-ms="2690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetLeads -->
+        <test-method signature="GetRequirement()[pri:0, instance:APITestCase.ManageLead@1e04fa0a]" started-at="2024-09-05T13:45:31 IST" name="GetRequirement" finished-at="2024-09-05T13:45:31 IST" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetRequirement -->
+        <test-method signature="GetStates()[pri:0, instance:APITestCase.ManageLead@1e04fa0a]" started-at="2024-09-05T13:45:31 IST" name="GetStates" finished-at="2024-09-05T13:45:31 IST" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetStates -->
+        <test-method signature="GetTaskByLeadId()[pri:0, instance:APITestCase.ManageLead@1e04fa0a]" started-at="2024-09-05T13:45:31 IST" name="GetTaskByLeadId" finished-at="2024-09-05T13:45:31 IST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetTaskByLeadId -->
+        <test-method signature="MarkLeadAsStar()[pri:0, instance:APITestCase.ManageLead@1e04fa0a]" started-at="2024-09-05T13:45:31 IST" name="MarkLeadAsStar" finished-at="2024-09-05T13:45:32 IST" duration-ms="446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MarkLeadAsStar -->
+        <test-method signature="MarkTaskAsCompleted()[pri:0, instance:APITestCase.ManageLead@1e04fa0a]" started-at="2024-09-05T13:45:32 IST" name="MarkTaskAsCompleted" finished-at="2024-09-05T13:45:32 IST" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MarkTaskAsCompleted -->
+        <test-method signature="RescheduleTask()[pri:0, instance:APITestCase.ManageLead@1e04fa0a]" started-at="2024-09-05T13:45:32 IST" name="RescheduleTask" finished-at="2024-09-05T13:45:32 IST" duration-ms="549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RescheduleTask -->
+        <test-method signature="UpdateLead()[pri:0, instance:APITestCase.ManageLead@1e04fa0a]" started-at="2024-09-05T13:45:32 IST" name="UpdateLead" finished-at="2024-09-05T13:45:33 IST" duration-ms="337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateLead -->
+        <test-method signature="UploadLeadAttachment()[pri:0, instance:APITestCase.ManageLead@1e04fa0a]" started-at="2024-09-05T13:45:33 IST" name="UploadLeadAttachment" finished-at="2024-09-05T13:45:33 IST" duration-ms="441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UploadLeadAttachment -->
+        <test-method signature="UpdateLeadStage()[pri:0, instance:APITestCase.ManageLead@1e04fa0a]" started-at="2024-09-05T13:45:33 IST" name="UpdateLeadStage" finished-at="2024-09-05T13:45:34 IST" depends-on-methods="APITestCase.ManageLead.AddLead" duration-ms="438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateLeadStage -->
+        <test-method is-config="true" signature="close()[pri:0, instance:APITestCase.ManageLead@1e04fa0a]" started-at="2024-09-05T13:45:34 IST" name="close" finished-at="2024-09-05T13:45:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- APITestCase.ManageLead -->
+      <class name="APITestCase.ManageInquiry">
+        <test-method is-config="true" signature="setup()[pri:0, instance:APITestCase.ManageInquiry@74bfdd66]" started-at="2024-09-05T13:46:03 IST" name="setup" finished-at="2024-09-05T13:46:03 IST" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ExportInquiry()[pri:0, instance:APITestCase.ManageInquiry@74bfdd66]" started-at="2024-09-05T13:46:03 IST" name="ExportInquiry" finished-at="2024-09-05T13:46:03 IST" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExportInquiry -->
+        <test-method signature="GetVendorInquiry()[pri:0, instance:APITestCase.ManageInquiry@74bfdd66]" started-at="2024-09-05T13:46:03 IST" name="GetVendorInquiry" finished-at="2024-09-05T13:46:03 IST" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetVendorInquiry -->
+        <test-method signature="UpdateInquiryStatus()[pri:0, instance:APITestCase.ManageInquiry@74bfdd66]" started-at="2024-09-05T13:46:03 IST" name="UpdateInquiryStatus" finished-at="2024-09-05T13:46:03 IST" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateInquiryStatus -->
+        <test-method is-config="true" signature="close()[pri:0, instance:APITestCase.ManageInquiry@74bfdd66]" started-at="2024-09-05T13:46:03 IST" name="close" finished-at="2024-09-05T13:46:03 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- APITestCase.ManageInquiry -->
+      <class name="MSNagile.ManageOrganization">
+        <test-method signature="Login()[pri:0, instance:MSNagile.ManageOrganization@26a9c6df]" started-at="2024-09-05T13:46:17 IST" name="Login" finished-at="2024-09-05T13:46:17 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:MSNagile.ManageOrganization@26a9c6df]" started-at="2024-09-05T13:46:17 IST" name="setup" finished-at="2024-09-05T13:46:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="GetOrgDetail()[pri:0, instance:MSNagile.ManageOrganization@26a9c6df]" started-at="2024-09-05T13:46:17 IST" name="GetOrgDetail" finished-at="2024-09-05T13:46:17 IST" depends-on-methods="MSNagile.ManageOrganization.Login" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetOrgDetail -->
+        <test-method signature="GetTaxIdTypes()[pri:0, instance:MSNagile.ManageOrganization@26a9c6df]" started-at="2024-09-05T13:46:17 IST" name="GetTaxIdTypes" finished-at="2024-09-05T13:46:17 IST" depends-on-methods="MSNagile.ManageOrganization.Login" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetTaxIdTypes -->
+        <test-method signature="UpdateOrg()[pri:0, instance:MSNagile.ManageOrganization@26a9c6df]" started-at="2024-09-05T13:46:17 IST" name="UpdateOrg" finished-at="2024-09-05T13:46:17 IST" depends-on-methods="MSNagile.ManageOrganization.Login" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateOrg -->
+        <test-method is-config="true" signature="close()[pri:0, instance:MSNagile.ManageOrganization@26a9c6df]" started-at="2024-09-05T13:46:17 IST" name="close" finished-at="2024-09-05T13:46:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- MSNagile.ManageOrganization -->
+      <class name="APITestCase.ManageQuotation">
+        <test-method is-config="true" signature="setup()[pri:0, instance:APITestCase.ManageQuotation@26f480c6]" started-at="2024-09-05T13:45:37 IST" name="setup" finished-at="2024-09-05T13:45:37 IST" duration-ms="335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AddLead()[pri:0, instance:APITestCase.ManageQuotation@26f480c6]" started-at="2024-09-05T13:45:37 IST" name="AddLead" finished-at="2024-09-05T13:45:38 IST" duration-ms="671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddLead -->
+        <test-method signature="AddQuotation()[pri:0, instance:APITestCase.ManageQuotation@26f480c6]" started-at="2024-09-05T13:45:38 IST" name="AddQuotation" finished-at="2024-09-05T13:45:39 IST" duration-ms="390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuotation -->
+        <test-method signature="AddShippingAddress()[pri:0, instance:APITestCase.ManageQuotation@26f480c6]" started-at="2024-09-05T13:45:39 IST" name="AddShippingAddress" finished-at="2024-09-05T13:45:39 IST" duration-ms="333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddShippingAddress -->
+        <test-method signature="ConvertToOrder()[pri:0, instance:APITestCase.ManageQuotation@26f480c6]" started-at="2024-09-05T13:45:39 IST" name="ConvertToOrder" finished-at="2024-09-05T13:45:40 IST" duration-ms="1434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConvertToOrder -->
+        <test-method signature="DeleteQuotation()[pri:0, instance:APITestCase.ManageQuotation@26f480c6]" started-at="2024-09-05T13:45:40 IST" name="DeleteQuotation" finished-at="2024-09-05T13:45:41 IST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteQuotation -->
+        <test-method signature="DownloadQuotation()[pri:0, instance:APITestCase.ManageQuotation@26f480c6]" started-at="2024-09-05T13:45:41 IST" name="DownloadQuotation" finished-at="2024-09-05T13:45:44 IST" duration-ms="3636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DownloadQuotation -->
+        <test-method signature="ExportQuotation()[pri:0, instance:APITestCase.ManageQuotation@26f480c6]" started-at="2024-09-05T13:45:44 IST" name="ExportQuotation" finished-at="2024-09-05T13:45:44 IST" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExportQuotation -->
+        <test-method signature="GetQuotation()[pri:0, instance:APITestCase.ManageQuotation@26f480c6]" started-at="2024-09-05T13:45:44 IST" name="GetQuotation" finished-at="2024-09-05T13:45:46 IST" duration-ms="1208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetQuotation -->
+        <test-method signature="QuotationDetail()[pri:0, instance:APITestCase.ManageQuotation@26f480c6]" started-at="2024-09-05T13:45:46 IST" name="QuotationDetail" finished-at="2024-09-05T13:45:46 IST" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuotationDetail -->
+        <test-method signature="UpdateBillingAddress()[pri:0, instance:APITestCase.ManageQuotation@26f480c6]" started-at="2024-09-05T13:45:46 IST" name="UpdateBillingAddress" finished-at="2024-09-05T13:45:46 IST" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateBillingAddress -->
+        <test-method signature="UpdateQuotation()[pri:0, instance:APITestCase.ManageQuotation@26f480c6]" started-at="2024-09-05T13:45:46 IST" name="UpdateQuotation" finished-at="2024-09-05T13:45:47 IST" duration-ms="645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateQuotation -->
+        <test-method signature="UpdateShippingAddress()[pri:0, instance:APITestCase.ManageQuotation@26f480c6]" started-at="2024-09-05T13:45:47 IST" name="UpdateShippingAddress" finished-at="2024-09-05T13:45:47 IST" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateShippingAddress -->
+        <test-method signature="AddBillingAddress()[pri:0, instance:APITestCase.ManageQuotation@26f480c6]" started-at="2024-09-05T13:45:47 IST" name="AddBillingAddress" finished-at="2024-09-05T13:45:47 IST" depends-on-methods="APITestCase.ManageQuotation.AddLead" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddBillingAddress -->
+        <test-method signature="RecheckStock()[pri:0, instance:APITestCase.ManageQuotation@26f480c6]" started-at="2024-09-05T13:45:47 IST" name="RecheckStock" finished-at="2024-09-05T13:45:54 IST" depends-on-methods="APITestCase.ManageQuotation.GetQuotation" duration-ms="6289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecheckStock -->
+        <test-method is-config="true" signature="close()[pri:0, instance:APITestCase.ManageQuotation@26f480c6]" started-at="2024-09-05T13:45:54 IST" name="close" finished-at="2024-09-05T13:45:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- APITestCase.ManageQuotation -->
+      <class name="MSNagile.ManageUsersAndGroups">
+        <test-method is-config="true" signature="setup()[pri:0, instance:MSNagile.ManageUsersAndGroups@26bce60d]" started-at="2024-09-05T13:46:21 IST" name="setup" finished-at="2024-09-05T13:46:21 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Login()[pri:0, instance:MSNagile.ManageUsersAndGroups@26bce60d]" started-at="2024-09-05T13:46:21 IST" name="Login" finished-at="2024-09-05T13:46:22 IST" duration-ms="1264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="AssignGroupToUser()[pri:0, instance:MSNagile.ManageUsersAndGroups@26bce60d]" started-at="2024-09-05T13:46:22 IST" name="AssignGroupToUser" finished-at="2024-09-05T13:46:22 IST" depends-on-methods="MSNagile.ManageUsersAndGroups.Login" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AssignGroupToUser -->
+        <test-method signature="CreateGroup()[pri:0, instance:MSNagile.ManageUsersAndGroups@26bce60d]" started-at="2024-09-05T13:46:22 IST" name="CreateGroup" finished-at="2024-09-05T13:46:23 IST" depends-on-methods="MSNagile.ManageUsersAndGroups.Login" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateGroup -->
+        <test-method signature="DeleteGroup()[pri:0, instance:MSNagile.ManageUsersAndGroups@26bce60d]" started-at="2024-09-05T13:46:23 IST" name="DeleteGroup" finished-at="2024-09-05T13:46:23 IST" depends-on-methods="MSNagile.ManageUsersAndGroups.Login" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteGroup -->
+        <test-method signature="GetAllGroups()[pri:0, instance:MSNagile.ManageUsersAndGroups@26bce60d]" started-at="2024-09-05T13:46:23 IST" name="GetAllGroups" finished-at="2024-09-05T13:46:23 IST" depends-on-methods="MSNagile.ManageUsersAndGroups.Login" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetAllGroups -->
+        <test-method signature="GetAllRoles()[pri:0, instance:MSNagile.ManageUsersAndGroups@26bce60d]" started-at="2024-09-05T13:46:23 IST" name="GetAllRoles" finished-at="2024-09-05T13:46:23 IST" depends-on-methods="MSNagile.ManageUsersAndGroups.Login" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetAllRoles -->
+        <test-method signature="GetAllUsers()[pri:0, instance:MSNagile.ManageUsersAndGroups@26bce60d]" started-at="2024-09-05T13:46:23 IST" name="GetAllUsers" finished-at="2024-09-05T13:46:23 IST" depends-on-methods="MSNagile.ManageUsersAndGroups.Login" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetAllUsers -->
+        <test-method signature="GetAllUsersAndDeactivateIfActive()[pri:0, instance:MSNagile.ManageUsersAndGroups@26bce60d]" started-at="2024-09-05T13:46:23 IST" name="GetAllUsersAndDeactivateIfActive" finished-at="2024-09-05T13:46:24 IST" depends-on-methods="MSNagile.ManageUsersAndGroups.Login" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetAllUsersAndDeactivateIfActive -->
+        <test-method signature="InviteUser()[pri:0, instance:MSNagile.ManageUsersAndGroups@26bce60d]" started-at="2024-09-05T13:46:24 IST" name="InviteUser" finished-at="2024-09-05T13:46:24 IST" depends-on-methods="MSNagile.ManageUsersAndGroups.Login" duration-ms="369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InviteUser -->
+        <test-method signature="UpdateGroup()[pri:0, instance:MSNagile.ManageUsersAndGroups@26bce60d]" started-at="2024-09-05T13:46:24 IST" name="UpdateGroup" finished-at="2024-09-05T13:46:24 IST" depends-on-methods="MSNagile.ManageUsersAndGroups.Login" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateGroup -->
+        <test-method is-config="true" signature="close()[pri:0, instance:MSNagile.ManageUsersAndGroups@26bce60d]" started-at="2024-09-05T13:46:24 IST" name="close" finished-at="2024-09-05T13:46:24 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- MSNagile.ManageUsersAndGroups -->
+      <class name="APITestCase.Dashboard">
+        <test-method is-config="true" signature="setup()[pri:0, instance:APITestCase.Dashboard@76cf91c9]" started-at="2024-09-05T13:45:57 IST" name="setup" finished-at="2024-09-05T13:45:57 IST" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ExportLeadConversionReport()[pri:0, instance:APITestCase.Dashboard@76cf91c9]" started-at="2024-09-05T13:45:57 IST" name="ExportLeadConversionReport" finished-at="2024-09-05T13:45:58 IST" duration-ms="390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExportLeadConversionReport -->
+        <test-method signature="ExportLeadGenerationSources()[pri:0, instance:APITestCase.Dashboard@76cf91c9]" started-at="2024-09-05T13:45:58 IST" name="ExportLeadGenerationSources" finished-at="2024-09-05T13:45:58 IST" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExportLeadGenerationSources -->
+        <test-method signature="ExportLeadOverDueTask()[pri:0, instance:APITestCase.Dashboard@76cf91c9]" started-at="2024-09-05T13:45:58 IST" name="ExportLeadOverDueTask" finished-at="2024-09-05T13:45:59 IST" duration-ms="643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExportLeadOverDueTask -->
+        <test-method signature="ExportNotYetConvertedQuotation()[pri:0, instance:APITestCase.Dashboard@76cf91c9]" started-at="2024-09-05T13:45:59 IST" name="ExportNotYetConvertedQuotation" finished-at="2024-09-05T13:46:00 IST" duration-ms="1546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExportNotYetConvertedQuotation -->
+        <test-method signature="ExportQuotationAnalytics()[pri:0, instance:APITestCase.Dashboard@76cf91c9]" started-at="2024-09-05T13:46:00 IST" name="ExportQuotationAnalytics" finished-at="2024-09-05T13:46:01 IST" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExportQuotationAnalytics -->
+        <test-method signature="ExportSalesExecutiveQuotationAnalytics()[pri:0, instance:APITestCase.Dashboard@76cf91c9]" started-at="2024-09-05T13:46:01 IST" name="ExportSalesExecutiveQuotationAnalytics" finished-at="2024-09-05T13:46:01 IST" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExportSalesExecutiveQuotationAnalytics -->
+        <test-method signature="ExportVendorPoorResponse()[pri:0, instance:APITestCase.Dashboard@76cf91c9]" started-at="2024-09-05T13:46:01 IST" name="ExportVendorPoorResponse" finished-at="2024-09-05T13:46:01 IST" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExportVendorPoorResponse -->
+        <test-method signature="ExportVendorQuickResponse()[pri:0, instance:APITestCase.Dashboard@76cf91c9]" started-at="2024-09-05T13:46:01 IST" name="ExportVendorQuickResponse" finished-at="2024-09-05T13:46:01 IST" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExportVendorQuickResponse -->
+        <test-method signature="ExportVendorStrikeRate()[pri:0, instance:APITestCase.Dashboard@76cf91c9]" started-at="2024-09-05T13:46:01 IST" name="ExportVendorStrikeRate" finished-at="2024-09-05T13:46:02 IST" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExportVendorStrikeRate -->
+        <test-method signature="GetDashboardData()[pri:0, instance:APITestCase.Dashboard@76cf91c9]" started-at="2024-09-05T13:46:02 IST" name="GetDashboardData" finished-at="2024-09-05T13:46:02 IST" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetDashboardData -->
+        <test-method signature="GetLeadAnalaytics()[pri:0, instance:APITestCase.Dashboard@76cf91c9]" started-at="2024-09-05T13:46:02 IST" name="GetLeadAnalaytics" finished-at="2024-09-05T13:46:02 IST" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetLeadAnalaytics -->
+        <test-method signature="GetOverDueTask()[pri:0, instance:APITestCase.Dashboard@76cf91c9]" started-at="2024-09-05T13:46:02 IST" name="GetOverDueTask" finished-at="2024-09-05T13:46:02 IST" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetOverDueTask -->
+        <test-method signature="GetQuotationAnalytics()[pri:0, instance:APITestCase.Dashboard@76cf91c9]" started-at="2024-09-05T13:46:02 IST" name="GetQuotationAnalytics" finished-at="2024-09-05T13:46:02 IST" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetQuotationAnalytics -->
+        <test-method signature="LeadConversionReport()[pri:0, instance:APITestCase.Dashboard@76cf91c9]" started-at="2024-09-05T13:46:02 IST" name="LeadConversionReport" finished-at="2024-09-05T13:46:02 IST" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LeadConversionReport -->
+        <test-method signature="StockCheckAnalytics()[pri:0, instance:APITestCase.Dashboard@76cf91c9]" started-at="2024-09-05T13:46:02 IST" name="StockCheckAnalytics" finished-at="2024-09-05T13:46:03 IST" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StockCheckAnalytics -->
+        <test-method is-config="true" signature="close()[pri:0, instance:APITestCase.Dashboard@76cf91c9]" started-at="2024-09-05T13:46:03 IST" name="close" finished-at="2024-09-05T13:46:03 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- APITestCase.Dashboard -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
