@@ -1,0 +1,33 @@
+{
+    "product_name": "Floor tile",
+    "product_sku": "222",
+    "brand_id": "1",
+    "unit_of_measurement": "Set",
+    "country_of_manufacture": "2",
+    "product_uses": [
+        1
+    ],
+    "product_category": [
+        1
+    ],
+    "product_code": "32432",
+    "product_hsn_code": "23432",
+    "product_packing": "wd",
+    "vendor_company_name": "2",
+    "product_size": "4",
+    "product_finish": "1",
+    "product_material_type": "2",
+    "product_weight": "12.00",
+    "product_quality": "1",
+    "web_url": "abc.com",
+    "final_price": "1200",
+    "mrp": "2000",
+    "discount": 15.254,
+    "gst_rate": "18",
+    "purchase_rate": "3000",
+    "inventory": "12",
+    "coverage": "2",
+    "delivery_time": "7",
+    "product_images": [],
+    "product_image_previews": []
+}

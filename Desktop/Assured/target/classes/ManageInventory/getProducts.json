@@ -1,0 +1,17 @@
+{
+    "pageNumber": 1,
+    "pageSize": 10,
+    "search": "",
+    "sort": "",
+    "product_status": [],
+    "brand": [],
+    "product_material_type": [],
+    "product_quality": [],
+    "product_finish": [],
+    "product_category": [],
+    "product_uses": [],
+    "country_of_manufacture": [],
+    "vendor_company_name": [],
+    "unit_of_measurement": [],
+    "gst_rate": []
+}

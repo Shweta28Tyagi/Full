@@ -1,0 +1,20 @@
+{
+    "full_name": "User  ",
+    "primary_phone": 9297700070,
+    "secondary_phone": "",
+    "email": "",
+    "requirements": [2,5],
+    "lead_type": "Call",
+    "lead_source": "Offline",
+     "lead_owner_id": 28,
+    "notes":"hgjk",
+    "billing_address":{ 
+    "city": "",
+    "state": "",
+    "pincode": "",
+    "address_line_1": "",
+    "address_line_2": "",
+    "landmark": "",
+    "gst_number": ""
+   }
+  }

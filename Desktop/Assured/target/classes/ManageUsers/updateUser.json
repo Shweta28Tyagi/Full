@@ -1,0 +1,12 @@
+{
+    "id":"130",
+    "first_name":"sonia",
+    "user_email":"sonia1@gmail.com",
+    "phone_number":"7600333333",
+    "date_of_birth":"",
+    "date_of_joining":"",
+    "role":"6",//mandatory
+    "vendor_company_name":"",
+    "branch":"1",
+    "profile_image":""
+}

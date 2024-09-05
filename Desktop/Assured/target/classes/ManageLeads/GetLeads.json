@@ -1,0 +1,18 @@
+{
+    "id":"",
+   "pageNumber": "",
+   "pageSize": "",
+   "search": "",
+   "lead_stage":[],
+   "lead_source":[],
+   "lead_owner_id":[],
+   "lead_activity":[],
+   "dateFilter":{
+       "type":"" ,
+       "startDate": "", 
+       "endDate": ""
+   },
+  "is_star_marked":"",
+  "no_task_lead":"", 
+  "sort":""
+}

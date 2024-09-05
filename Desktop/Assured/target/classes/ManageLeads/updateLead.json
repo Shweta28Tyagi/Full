@@ -1,0 +1,21 @@
+{
+  "id":85,
+  "full_name": "new 559",
+  "primary_phone": 9799999999,
+  "secondary_phone": "",
+  "email": "shweta@gmail.com",
+  "requirements": [5],
+  "lead_type": "Call",
+  "lead_source": "Instagram",
+  "lead_owner_id": 28,
+  "billing_address":{
+    "city_id":"4" ,
+    "state_id": "1",
+    "pincode": "445077",
+    "address_line_1": "ghahah 00gyuj ",
+    "address_line_2": "agagaah 00hjfjh ",
+    "landmark": "",
+    "gst_number": "22AAAAA0000A1Z5"
+  },
+  "notes": "Sample notes with 123 and specia !@#$%^&*()"
+}

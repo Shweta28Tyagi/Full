@@ -1,0 +1,19 @@
+{
+    "search": "",
+    "lead_stage": [],
+    "lead_source": [],
+    "lead_owner_id": [],
+    "lead_activity": [],
+    "is_star_marked": false,
+    "no_task_lead": false,
+    "leadActivityDateFilter": {
+        "type": "",
+        "startDate": "",
+        "endDate": ""
+    },
+    "dateFilter": {
+        "type": "",
+        "startDate": "",
+        "endDate": ""
+    }
+}
