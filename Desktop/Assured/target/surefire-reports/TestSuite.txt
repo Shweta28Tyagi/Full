@@ -1,8 +1,17 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 130, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 56.825 s <<< FAILURE! - in TestSuite
-DeleteCustomIssueType(MSNagile.SetupConfiguration)  Time elapsed: 0.164 s  <<< FAILURE!
+Tests run: 130, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 68.286 s <<< FAILURE! - in TestSuite
+UpdateUser(APITestCase.ManageUser)  Time elapsed: 0.19 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path message doesn't match.
+Expected: User Updated Successfully
+  Actual: Phone number must be a 10-digit number
+
+	at APITestCase.ManageUser.UpdateUser(ManageUser.java:99)
+
+DeleteCustomIssueType(MSNagile.SetupConfiguration)  Time elapsed: 0.146 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 JSON path message doesn't match.
