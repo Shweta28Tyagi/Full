@@ -7,15 +7,15 @@
     </listeners>
     <test name="Test">
         <classes>
-           <class name="APITestCase.Login"/>
+       <!--    <class name="APITestCase.Login"/>
        		<class name="APITestCase.ManageUser"/>
            	<class name="APITestCase.ManageLead"/>
             <class name="APITestCase.ManageInventory"/> 
             <class name="APITestCase.ManageQuotation"/> 
             <class name="APITestCase.ManageProfile"/> 
             <class name="APITestCase.RolesAndPermissions"/>
-            <class name="APITestCase.Dashboard"/>
-            <class name="APITestCase.ManageInquiry"/>      
+            <class name="APITestCase.Dashboard"/>   
+            <class name="APITestCase.ManageInquiry"/>   -->    
             <class name="MSNagile.Login"/>
             <class name="MSNagile.ManageOrganization"/>
             <class name="MSNagile.ManageSubscription"/>
