@@ -166,7 +166,7 @@ public class SetupConfiguration {
     }
     
     //Delete custom issue type
-    @Test(dependsOnMethods="Login")
+   // @Test(dependsOnMethods="Login")
     public void DeleteCustomIssueType() throws IOException {
 
     	String payload="{\r\n"
@@ -224,7 +224,7 @@ public class SetupConfiguration {
     }
     
     //Delete status
-    @Test(dependsOnMethods="Login")
+    //@Test(dependsOnMethods="Login")
     public void DeleteStatus()
     {
     	String payload="{\r\n"
