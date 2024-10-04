@@ -1,17 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 130, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 68.286 s <<< FAILURE! - in TestSuite
-UpdateUser(APITestCase.ManageUser)  Time elapsed: 0.19 s  <<< FAILURE!
-java.lang.AssertionError: 
-1 expectation failed.
-JSON path message doesn't match.
-Expected: User Updated Successfully
-  Actual: Phone number must be a 10-digit number
+Tests run: 131, Failures: 2, Errors: 0, Skipped: 2, Time elapsed: 65.732 s <<< FAILURE! - in TestSuite
+AddLead(APITestCase.ManageLead)  Time elapsed: 0.492 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "io.restassured.path.json.JsonPath.get(String)" is null
+	at APITestCase.ManageLead.AddLead(ManageLead.java:101)
 
-	at APITestCase.ManageUser.UpdateUser(ManageUser.java:99)
-
-DeleteCustomIssueType(MSNagile.SetupConfiguration)  Time elapsed: 0.146 s  <<< FAILURE!
+DeleteCustomIssueType(MSNagile.SetupConfiguration)  Time elapsed: 0.191 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 JSON path message doesn't match.

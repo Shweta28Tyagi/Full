@@ -86,7 +86,7 @@ public class SetupConfiguration {
         System.out.println("Response of get system workflows : " + res);
     }
 
-    //Get Org fields
+    //Get Organization fields
     @Test(dependsOnMethods="Login")
     public void GetOrgFields() throws IOException {
 
@@ -118,7 +118,7 @@ public class SetupConfiguration {
         System.out.println("Response of get all statuses : " + res);
     }
     
-    //Get org tags
+    //Get organization tags
     @Test(dependsOnMethods="Login")
     public void GetOrgTags() throws IOException {
 
@@ -164,7 +164,7 @@ public class SetupConfiguration {
 	         Assert.assertEquals(response.getStatusCode(), 208);  //208 already reported status code
 	     }
     }
-    
+   
     //Delete custom issue type
     @Test(dependsOnMethods="Login")
     public void DeleteCustomIssueType() throws IOException {

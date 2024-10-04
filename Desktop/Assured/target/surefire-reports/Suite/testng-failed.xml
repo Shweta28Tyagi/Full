@@ -14,13 +14,15 @@
           <include name="setup"/>
         </methods>
       </class> <!-- MSNagile.SetupConfiguration -->
-      <class name="APITestCase.ManageUser">
+      <class name="APITestCase.ManageLead">
         <methods>
-          <include name="setup"/>
-          <include name="UpdateUser"/>
           <include name="close"/>
+          <include name="GetLeads"/>
+          <include name="setup"/>
+          <include name="UpdateLeadStage"/>
+          <include name="AddLead"/>
         </methods>
-      </class> <!-- APITestCase.ManageUser -->
+      </class> <!-- APITestCase.ManageLead -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -34,8 +34,11 @@ import Util.QuotationData;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.mapper.ObjectMapper;
+import io.restassured.matcher.ResponseAwareMatcher;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
+import static org.hamcrest.Matchers.hasItem;
+
 
 public class ManageLead {
 	String token;
@@ -99,7 +102,7 @@ public class ManageLead {
     }
          
     // GET LEADS
-   @Test
+   @Test(dependsOnMethods="AddLead")
     public void GetLeads() throws IOException
     {
         String file=LeadData.GetLeads();
@@ -111,14 +114,75 @@ public class ManageLead {
                 .when()
                 .post("/getLeads")
                 .andReturn();
+         
         String exp = response.getBody().asString();
         System.out.println("Response body of get lead : " + exp);
 
         int count = JsonPath.from(exp).get("data.count");
         System.out.println("Total lead count : "+count);
-        
-        //Assert.assertEquals(response.body("message", equals("Record found successfully.")));        
+              
+     // Extract list of user IDs from the response
+        List<Integer> leadIds = response.jsonPath().getList("data.records.lead_id");
+
+        // Step 3: Assert that the user ID exists in the list of all users
+        Assert.assertTrue(leadIds.contains(leadId), "Lead ID " + leadId + " not found in the list of users!");      
     }
+   
+   // Verify added user
+   		//@Test
+	    public void addUserAndVerifyInGetAllLeads() {
+	        // Step 1: Add a new user and capture the user ID
+	   Map<String, Object> data=LeadData.AddLead();
+	   
+	        // POST request to add user
+	        response = RestAssured
+	                .given()
+	                .contentType(ContentType.JSON)
+	                .header("Authorization", "Bearer " + token)
+	                .body(data)
+	                .when()
+	                .post("/createLead")
+	                .then() 
+	                .extract()
+	                .response();
+
+	        //System.out.println("error " + response.jsonPath().getInt("data.lead_id"));
+	        // Extract user ID from the response
+	        String exp = response.getBody().asString();
+	        System.out.println("Response body of add lead : " + exp);
+	        
+	        Integer leadIdNew = response.jsonPath().get("data.lead_id");
+	        System.out.println("Lead ID created: " + leadIdNew); 
+	        if (leadIdNew == null) {
+	            System.out.println("Lead ID not found in the response!");
+	        } else {
+	            System.out.println("Lead ID created: " + leadIdNew);
+	        }
+	        
+	        // Step 2: Get all users and check if the newly added user exists
+	        String file=LeadData.GetLeads();
+	        
+	        response = RestAssured
+	                .given()
+	                .contentType(ContentType.JSON)
+	                .header("Authorization", "Bearer " + token)
+	                .body(file)
+	                .when()
+	                .post("/getLeads")
+	                .then()
+	                .extract()
+	                .response();
+	        
+	        String exp1 = response.getBody().asString();
+	        System.out.println("Response body of get lead : " + exp1);
+
+	        // Extract list of user IDs from the response
+	        List<Integer> leadIds = response.jsonPath().getList("data.records.lead_id");
+	        System.out.println(leadIds);
+
+	        // Step 3: Assert that the user ID exists in the list of all users
+	        Assert.assertTrue(leadIds.contains(leadIdNew), "Lead ID " + leadIdNew + " not found in the list of users!");
+	    }
 	
    //UPDATE LEAD
    @Test

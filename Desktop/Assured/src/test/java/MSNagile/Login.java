@@ -61,8 +61,7 @@ public class Login {
 	        
 	       String res = response.getBody().asString();
 	       System.out.println("Response of Login : "+res);
-	       this.authToken = JsonPath.from(res).get("token");
-	       
+	       this.authToken = JsonPath.from(res).get("token");      
 	    }
 	   
 	   //SIGNUP

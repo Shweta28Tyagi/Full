@@ -6,6 +6,20 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="APITestCase.ManageUser">
+        <methods>
+          <include name="setup"/>
+          <include name="AddUser"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- APITestCase.ManageUser -->
+      <class name="MSNagile.Login">
+        <methods>
+          <include name="Registration"/>
+          <include name="setup"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- MSNagile.Login -->
       <class name="MSNagile.SetupConfiguration">
         <methods>
           <include name="close"/>
@@ -14,15 +28,6 @@
           <include name="setup"/>
         </methods>
       </class> <!-- MSNagile.SetupConfiguration -->
-      <class name="APITestCase.ManageLead">
-        <methods>
-          <include name="UpdateLead"/>
-          <include name="close"/>
-          <include name="setup"/>
-          <include name="UpdateLeadStage"/>
-          <include name="AddLead"/>
-        </methods>
-      </class> <!-- APITestCase.ManageLead -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

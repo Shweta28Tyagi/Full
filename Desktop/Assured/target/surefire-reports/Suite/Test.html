@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>128/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>127/2/2</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Sep 05 16:35:30 IST 2024</td>
+<td>Started on:</td><td>Thu Oct 03 11:51:17 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>66 seconds (66502 ms)</td>
+<tr><td>Total time:</td><td>63 seconds (63990 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,98 +76,6 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='APITestCase.ManageUser.UpdateUser()'><b>UpdateUser</b><br>Test class: APITestCase.ManageUser</td>
-<td><div><pre>java.lang.AssertionError: 1 expectation failed.
-JSON path message doesn&apos;t match.
-Expected: User Updated Successfully
-  Actual: Phone number must be a 10-digit number
-
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
-	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:270)
-	at io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:117)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
-	at APITestCase.ManageUser.UpdateUser(ManageUser.java:99)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 40 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace653434597", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace653434597'><pre>java.lang.AssertionError: 1 expectation failed.
-JSON path message doesn&apos;t match.
-Expected: User Updated Successfully
-  Actual: Phone number must be a 10-digit number
-
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
-	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
-	at jdk.internal.reflect.GeneratedMethodAccessor71.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:270)
-	at io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:117)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
-	at APITestCase.ManageUser.UpdateUser(ManageUser.java:99)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-</pre></div></td>
-<td>0</td>
-<td>APITestCase.ManageUser@66d3eec0</td></tr>
-<tr>
 <td title='MSNagile.SetupConfiguration.DeleteCustomIssueType()'><b>DeleteCustomIssueType</b><br>Test class: MSNagile.SetupConfiguration</td>
 <td><div><pre>java.lang.AssertionError: 1 expectation failed.
 JSON path message doesn&apos;t match.
@@ -175,6 +83,8 @@ Expected: Successfully
   Actual: Incorrect IssueType id
 
 	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
 	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
 	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
@@ -190,8 +100,8 @@ Expected: Successfully
 	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
 	at MSNagile.SetupConfiguration.DeleteCustomIssueType(SetupConfiguration.java:185)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 40 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace16287522", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace16287522'><pre>java.lang.AssertionError: 1 expectation failed.
+... Removed 40 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1524607324", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1524607324'><pre>java.lang.AssertionError: 1 expectation failed.
 JSON path message doesn&apos;t match.
 Expected: Successfully
   Actual: Incorrect IssueType id
@@ -203,6 +113,8 @@ Expected: Successfully
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
 	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
 	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
 	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
 	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
@@ -254,7 +166,50 @@ Expected: Successfully
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 </pre></div></td>
 <td>0</td>
-<td>MSNagile.SetupConfiguration@76eadc5a</td></tr>
+<td>MSNagile.SetupConfiguration@1e9d7366</td></tr>
+<tr>
+<td title='APITestCase.ManageLead.AddLead()'><b>AddLead</b><br>Test class: APITestCase.ManageLead</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.lang.Integer.intValue()&quot; because the return value of &quot;io.restassured.path.json.JsonPath.get(String)&quot; is null
+	at APITestCase.ManageLead.AddLead(ManageLead.java:101)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1201817324", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1201817324'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.lang.Integer.intValue()&quot; because the return value of &quot;io.restassured.path.json.JsonPath.get(String)&quot; is null
+	at APITestCase.ManageLead.AddLead(ManageLead.java:101)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>0</td>
+<td>APITestCase.ManageLead@1af2d44a</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -265,645 +220,717 @@ Expected: Successfully
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='MSNagile.Login.RefreshToken()'><b>RefreshToken</b><br>Test class: MSNagile.Login</td>
-<td></td>
-<td>0</td>
-<td>MSNagile.Login@6fc7e828</td></tr>
-<tr>
-<td title='APITestCase.ManageUser.UsersCount()'><b>UsersCount</b><br>Test class: APITestCase.ManageUser</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageUser@66d3eec0</td></tr>
-<tr>
-<td title='APITestCase.ManageInquiry.ExportInquiry()'><b>ExportInquiry</b><br>Test class: APITestCase.ManageInquiry</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageInquiry@74bfdd66</td></tr>
-<tr>
-<td title='APITestCase.RolesAndPermissions.getRoleDetail()'><b>getRoleDetail</b><br>Test class: APITestCase.RolesAndPermissions</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.RolesAndPermissions@7747cc1b</td></tr>
-<tr>
-<td title='APITestCase.ManageQuotation.UpdateQuotation()'><b>UpdateQuotation</b><br>Test class: APITestCase.ManageQuotation</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageQuotation@26f480c6</td></tr>
-<tr>
-<td title='APITestCase.ManageLead.GetLeadOwner()'><b>GetLeadOwner</b><br>Test class: APITestCase.ManageLead</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageLead@1e04fa0a</td></tr>
-<tr>
-<td title='APITestCase.ManageLead.AddLead()'><b>AddLead</b><br>Test class: APITestCase.ManageLead</td>
-<td></td>
-<td>1</td>
-<td>APITestCase.ManageLead@1e04fa0a</td></tr>
-<tr>
-<td title='MSNagile.Login.Logout()'><b>Logout</b><br>Test class: MSNagile.Login</td>
-<td></td>
-<td>0</td>
-<td>MSNagile.Login@6fc7e828</td></tr>
-<tr>
-<td title='APITestCase.ManageUser.UploadUserProfileImage()'><b>UploadUserProfileImage</b><br>Test class: APITestCase.ManageUser</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageUser@66d3eec0</td></tr>
-<tr>
-<td title='APITestCase.ManageLead.MarkLeadAsStar()'><b>MarkLeadAsStar</b><br>Test class: APITestCase.ManageLead</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageLead@1e04fa0a</td></tr>
-<tr>
-<td title='APITestCase.ManageLead.GetRequirement()'><b>GetRequirement</b><br>Test class: APITestCase.ManageLead</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageLead@1e04fa0a</td></tr>
-<tr>
-<td title='APITestCase.RolesAndPermissions.createRole()'><b>createRole</b><br>Test class: APITestCase.RolesAndPermissions</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.RolesAndPermissions@7747cc1b</td></tr>
-<tr>
-<td title='MSNagile.ManageUsersAndGroups.GetAllUsers()'><b>GetAllUsers</b><br>Test class: MSNagile.ManageUsersAndGroups</td>
-<td></td>
-<td>0</td>
-<td>MSNagile.ManageUsersAndGroups@26bce60d</td></tr>
-<tr>
-<td title='APITestCase.RolesAndPermissions.getRoles()'><b>getRoles</b><br>Test class: APITestCase.RolesAndPermissions</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.RolesAndPermissions@7747cc1b</td></tr>
-<tr>
-<td title='APITestCase.ManageQuotation.AddQuotation()'><b>AddQuotation</b><br>Test class: APITestCase.ManageQuotation</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageQuotation@26f480c6</td></tr>
-<tr>
-<td title='MSNagile.Login.Registration()'><b>Registration</b><br>Test class: MSNagile.Login</td>
-<td></td>
-<td>4</td>
-<td>MSNagile.Login@6fc7e828</td></tr>
-<tr>
-<td title='MSNagile.Login.EmailVerification()'><b>EmailVerification</b><br>Test class: MSNagile.Login</td>
-<td></td>
-<td>0</td>
-<td>MSNagile.Login@6fc7e828</td></tr>
-<tr>
-<td title='MSNagile.ManageUsersAndGroups.CreateGroup()'><b>CreateGroup</b><br>Test class: MSNagile.ManageUsersAndGroups</td>
-<td></td>
-<td>0</td>
-<td>MSNagile.ManageUsersAndGroups@26bce60d</td></tr>
-<tr>
-<td title='MSNagile.SetupConfiguration.GetOrgTags()'><b>GetOrgTags</b><br>Test class: MSNagile.SetupConfiguration</td>
-<td></td>
-<td>0</td>
-<td>MSNagile.SetupConfiguration@76eadc5a</td></tr>
-<tr>
-<td title='APITestCase.ManageInventory.UpdateProduct()'><b>UpdateProduct</b><br>Test class: APITestCase.ManageInventory</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageInventory@1af2d44a</td></tr>
-<tr>
-<td title='APITestCase.ManageQuotation.AddBillingAddress()'><b>AddBillingAddress</b><br>Test class: APITestCase.ManageQuotation</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageQuotation@26f480c6</td></tr>
-<tr>
-<td title='APITestCase.RolesAndPermissions.RoleList()'><b>RoleList</b><br>Test class: APITestCase.RolesAndPermissions</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.RolesAndPermissions@7747cc1b</td></tr>
-<tr>
-<td title='APITestCase.ManageLead.GetLeadDetails()'><b>GetLeadDetails</b><br>Test class: APITestCase.ManageLead</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageLead@1e04fa0a</td></tr>
-<tr>
-<td title='APITestCase.ManageLead.UpdateLeadStage()'><b>UpdateLeadStage</b><br>Test class: APITestCase.ManageLead</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageLead@1e04fa0a</td></tr>
-<tr>
-<td title='APITestCase.ManageLead.GetLeadTask()'><b>GetLeadTask</b><br>Test class: APITestCase.ManageLead</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageLead@1e04fa0a</td></tr>
-<tr>
-<td title='APITestCase.ManageUser.AddUser()'><b>AddUser</b><br>Test class: APITestCase.ManageUser</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageUser@66d3eec0</td></tr>
-<tr>
-<td title='APITestCase.ManageUser.GetVendorCompany()'><b>GetVendorCompany</b><br>Test class: APITestCase.ManageUser</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageUser@66d3eec0</td></tr>
-<tr>
-<td title='APITestCase.Dashboard.GetLeadAnalaytics()'><b>GetLeadAnalaytics</b><br>Test class: APITestCase.Dashboard</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.Dashboard@76cf91c9</td></tr>
-<tr>
-<td title='APITestCase.ManageUser.ResetPassword()'><b>ResetPassword</b><br>Test class: APITestCase.ManageUser</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageUser@66d3eec0</td></tr>
-<tr>
-<td title='APITestCase.ManageInventory.GetProductDetails()'><b>GetProductDetails</b><br>Test class: APITestCase.ManageInventory</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageInventory@1af2d44a</td></tr>
-<tr>
-<td title='APITestCase.ManageLead.AddLeadActivity()'><b>AddLeadActivity</b><br>Test class: APITestCase.ManageLead</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageLead@1e04fa0a</td></tr>
-<tr>
-<td title='APITestCase.ManageLead.GetTaskByLeadId()'><b>GetTaskByLeadId</b><br>Test class: APITestCase.ManageLead</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageLead@1e04fa0a</td></tr>
-<tr>
-<td title='MSNagile.SetupConfiguration.CreateIssueType()'><b>CreateIssueType</b><br>Test class: MSNagile.SetupConfiguration</td>
-<td></td>
-<td>0</td>
-<td>MSNagile.SetupConfiguration@76eadc5a</td></tr>
-<tr>
-<td title='APITestCase.ManageLead.RescheduleTask()'><b>RescheduleTask</b><br>Test class: APITestCase.ManageLead</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageLead@1e04fa0a</td></tr>
-<tr>
-<td title='APITestCase.ManageInquiry.UpdateInquiryStatus()'><b>UpdateInquiryStatus</b><br>Test class: APITestCase.ManageInquiry</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageInquiry@74bfdd66</td></tr>
-<tr>
-<td title='APITestCase.ManageLead.GetLeadHistory()'><b>GetLeadHistory</b><br>Test class: APITestCase.ManageLead</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageLead@1e04fa0a</td></tr>
-<tr>
-<td title='APITestCase.ManageLead.ExportLeads()'><b>ExportLeads</b><br>Test class: APITestCase.ManageLead</td>
-<td></td>
-<td>2</td>
-<td>APITestCase.ManageLead@1e04fa0a</td></tr>
-<tr>
-<td title='APITestCase.ManageQuotation.DownloadQuotation()'><b>DownloadQuotation</b><br>Test class: APITestCase.ManageQuotation</td>
-<td></td>
-<td>11</td>
-<td>APITestCase.ManageQuotation@26f480c6</td></tr>
-<tr>
-<td title='APITestCase.ManageQuotation.GetQuotation()'><b>GetQuotation</b><br>Test class: APITestCase.ManageQuotation</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageQuotation@26f480c6</td></tr>
-<tr>
-<td title='MSNagile.ManageOrganization.GetTaxIdTypes()'><b>GetTaxIdTypes</b><br>Test class: MSNagile.ManageOrganization</td>
-<td></td>
-<td>0</td>
-<td>MSNagile.ManageOrganization@26a9c6df</td></tr>
-<tr>
-<td title='APITestCase.ManageUser.RoleList()'><b>RoleList</b><br>Test class: APITestCase.ManageUser</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageUser@66d3eec0</td></tr>
-<tr>
-<td title='APITestCase.ManageLead.UpdateLead()'><b>UpdateLead</b><br>Test class: APITestCase.ManageLead</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageLead@1e04fa0a</td></tr>
-<tr>
-<td title='APITestCase.ManageQuotation.AddShippingAddress()'><b>AddShippingAddress</b><br>Test class: APITestCase.ManageQuotation</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageQuotation@26f480c6</td></tr>
-<tr>
-<td title='MSNagile.ManageUsersAndGroups.GetAllGroups()'><b>GetAllGroups</b><br>Test class: MSNagile.ManageUsersAndGroups</td>
-<td></td>
-<td>0</td>
-<td>MSNagile.ManageUsersAndGroups@26bce60d</td></tr>
-<tr>
-<td title='MSNagile.ManageSubscription.Login()'><b>Login</b><br>Test class: MSNagile.ManageSubscription</td>
-<td></td>
-<td>0</td>
-<td>MSNagile.ManageSubscription@2ce24a1a</td></tr>
-<tr>
-<td title='APITestCase.ManageQuotation.QuotationDetail()'><b>QuotationDetail</b><br>Test class: APITestCase.ManageQuotation</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageQuotation@26f480c6</td></tr>
-<tr>
-<td title='APITestCase.Dashboard.ExportLeadConversionReport()'><b>ExportLeadConversionReport</b><br>Test class: APITestCase.Dashboard</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.Dashboard@76cf91c9</td></tr>
-<tr>
-<td title='APITestCase.ManageLead.UploadLeadAttachment()'><b>UploadLeadAttachment</b><br>Test class: APITestCase.ManageLead</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageLead@1e04fa0a</td></tr>
-<tr>
-<td title='APITestCase.ManageInquiry.GetVendorInquiry()'><b>GetVendorInquiry</b><br>Test class: APITestCase.ManageInquiry</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageInquiry@74bfdd66</td></tr>
-<tr>
-<td title='MSNagile.SetupConfiguration.GetSystemWorkflows()'><b>GetSystemWorkflows</b><br>Test class: MSNagile.SetupConfiguration</td>
-<td></td>
-<td>0</td>
-<td>MSNagile.SetupConfiguration@76eadc5a</td></tr>
-<tr>
-<td title='APITestCase.Dashboard.StockCheckAnalytics()'><b>StockCheckAnalytics</b><br>Test class: APITestCase.Dashboard</td>
-<td></td>
-<td>1</td>
-<td>APITestCase.Dashboard@76cf91c9</td></tr>
-<tr>
-<td title='APITestCase.Login.OtpVerification()'><b>OtpVerification</b><br>Test class: APITestCase.Login</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.Login@1a18644</td></tr>
-<tr>
-<td title='APITestCase.ManageUser.ResendPassword()'><b>ResendPassword</b><br>Test class: APITestCase.ManageUser</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageUser@66d3eec0</td></tr>
-<tr>
-<td title='APITestCase.Login.UserProfile()'><b>UserProfile</b><br>Test class: APITestCase.Login</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.Login@1a18644</td></tr>
-<tr>
-<td title='APITestCase.Login.TestResetPassword()'><b>TestResetPassword</b><br>Test class: APITestCase.Login</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.Login@1a18644</td></tr>
-<tr>
-<td title='APITestCase.ManageLead.DeleteAttachment()'><b>DeleteAttachment</b><br>Test class: APITestCase.ManageLead</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageLead@1e04fa0a</td></tr>
-<tr>
-<td title='APITestCase.ManageProfile.testUploadProfileImage()'><b>testUploadProfileImage</b><br>Test class: APITestCase.ManageProfile</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageProfile@2567c091</td></tr>
-<tr>
-<td title='APITestCase.ManageProfile.testRemoveProfileImage()'><b>testRemoveProfileImage</b><br>Test class: APITestCase.ManageProfile</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageProfile@2567c091</td></tr>
-<tr>
-<td title='MSNagile.ManageUsersAndGroups.Login()'><b>Login</b><br>Test class: MSNagile.ManageUsersAndGroups</td>
-<td></td>
-<td>0</td>
-<td>MSNagile.ManageUsersAndGroups@26bce60d</td></tr>
-<tr>
-<td title='APITestCase.ManageInventory.AddProductImage()'><b>AddProductImage</b><br>Test class: APITestCase.ManageInventory</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageInventory@1af2d44a</td></tr>
-<tr>
-<td title='MSNagile.ManageSubscription.GetConsumedStorage()'><b>GetConsumedStorage</b><br>Test class: MSNagile.ManageSubscription</td>
-<td></td>
-<td>0</td>
-<td>MSNagile.ManageSubscription@2ce24a1a</td></tr>
-<tr>
-<td title='APITestCase.ManageUser.UpdateUserStatus()'><b>UpdateUserStatus</b><br>Test class: APITestCase.ManageUser</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageUser@66d3eec0</td></tr>
-<tr>
-<td title='MSNagile.SetupConfiguration.GetOrgFields()'><b>GetOrgFields</b><br>Test class: MSNagile.SetupConfiguration</td>
-<td></td>
-<td>0</td>
-<td>MSNagile.SetupConfiguration@76eadc5a</td></tr>
-<tr>
-<td title='APITestCase.ManageQuotation.AddLead()'><b>AddLead</b><br>Test class: APITestCase.ManageQuotation</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageQuotation@26f480c6</td></tr>
-<tr>
 <td title='MSNagile.ManageSubscription.SubscribePlan()'><b>SubscribePlan</b><br>Test class: MSNagile.ManageSubscription</td>
 <td></td>
 <td>0</td>
-<td>MSNagile.ManageSubscription@2ce24a1a</td></tr>
-<tr>
-<td title='APITestCase.Dashboard.ExportVendorPoorResponse()'><b>ExportVendorPoorResponse</b><br>Test class: APITestCase.Dashboard</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.Dashboard@76cf91c9</td></tr>
-<tr>
-<td title='APITestCase.Login.Logout()'><b>Logout</b><br>Test class: APITestCase.Login</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.Login@1a18644</td></tr>
-<tr>
-<td title='APITestCase.ManageProfile.testGetUserProfile()'><b>testGetUserProfile</b><br>Test class: APITestCase.ManageProfile</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageProfile@2567c091</td></tr>
-<tr>
-<td title='MSNagile.SetupConfiguration.CreateStatus()'><b>CreateStatus</b><br>Test class: MSNagile.SetupConfiguration</td>
-<td></td>
-<td>0</td>
-<td>MSNagile.SetupConfiguration@76eadc5a</td></tr>
-<tr>
-<td title='APITestCase.ManageLead.CheckLeadNumbers()'><b>CheckLeadNumbers</b><br>Test class: APITestCase.ManageLead</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageLead@1e04fa0a</td></tr>
-<tr>
-<td title='MSNagile.ManageOrganization.UpdateOrg()'><b>UpdateOrg</b><br>Test class: MSNagile.ManageOrganization</td>
-<td></td>
-<td>0</td>
-<td>MSNagile.ManageOrganization@26a9c6df</td></tr>
-<tr>
-<td title='APITestCase.ManageLead.GetStates()'><b>GetStates</b><br>Test class: APITestCase.ManageLead</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageLead@1e04fa0a</td></tr>
-<tr>
-<td title='APITestCase.ManageInventory.GetInventory()'><b>GetInventory</b><br>Test class: APITestCase.ManageInventory</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageInventory@1af2d44a</td></tr>
-<tr>
-<td title='APITestCase.ManageQuotation.UpdateShippingAddress()'><b>UpdateShippingAddress</b><br>Test class: APITestCase.ManageQuotation</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageQuotation@26f480c6</td></tr>
-<tr>
-<td title='MSNagile.Login.Login()'><b>Login</b><br>Test class: MSNagile.Login</td>
-<td></td>
-<td>0</td>
-<td>MSNagile.Login@6fc7e828</td></tr>
-<tr>
-<td title='APITestCase.ManageQuotation.RecheckStock()'><b>RecheckStock</b><br>Test class: APITestCase.ManageQuotation</td>
-<td></td>
-<td>1</td>
-<td>APITestCase.ManageQuotation@26f480c6</td></tr>
-<tr>
-<td title='APITestCase.Dashboard.ExportSalesExecutiveQuotationAnalytics()'><b>ExportSalesExecutiveQuotationAnalytics</b><br>Test class: APITestCase.Dashboard</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.Dashboard@76cf91c9</td></tr>
-<tr>
-<td title='APITestCase.Dashboard.ExportVendorStrikeRate()'><b>ExportVendorStrikeRate</b><br>Test class: APITestCase.Dashboard</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.Dashboard@76cf91c9</td></tr>
-<tr>
-<td title='APITestCase.Login.LoginWithPassword()'><b>LoginWithPassword</b><br>Test class: APITestCase.Login</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.Login@1a18644</td></tr>
-<tr>
-<td title='MSNagile.ManageOrganization.GetOrgDetail()'><b>GetOrgDetail</b><br>Test class: MSNagile.ManageOrganization</td>
-<td></td>
-<td>0</td>
-<td>MSNagile.ManageOrganization@26a9c6df</td></tr>
-<tr>
-<td title='APITestCase.Dashboard.ExportLeadOverDueTask()'><b>ExportLeadOverDueTask</b><br>Test class: APITestCase.Dashboard</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.Dashboard@76cf91c9</td></tr>
-<tr>
-<td title='APITestCase.Dashboard.ExportNotYetConvertedQuotation()'><b>ExportNotYetConvertedQuotation</b><br>Test class: APITestCase.Dashboard</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.Dashboard@76cf91c9</td></tr>
-<tr>
-<td title='APITestCase.ManageLead.GetLeads()'><b>GetLeads</b><br>Test class: APITestCase.ManageLead</td>
-<td></td>
-<td>2</td>
-<td>APITestCase.ManageLead@1e04fa0a</td></tr>
-<tr>
-<td title='APITestCase.Dashboard.ExportVendorQuickResponse()'><b>ExportVendorQuickResponse</b><br>Test class: APITestCase.Dashboard</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.Dashboard@76cf91c9</td></tr>
-<tr>
-<td title='MSNagile.ManageUsersAndGroups.AssignGroupToUser()'><b>AssignGroupToUser</b><br>Test class: MSNagile.ManageUsersAndGroups</td>
-<td></td>
-<td>0</td>
-<td>MSNagile.ManageUsersAndGroups@26bce60d</td></tr>
-<tr>
-<td title='APITestCase.ManageLead.GetCity()'><b>GetCity</b><br>Test class: APITestCase.ManageLead</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageLead@1e04fa0a</td></tr>
-<tr>
-<td title='APITestCase.ManageLead.AddTaskForLead()'><b>AddTaskForLead</b><br>Test class: APITestCase.ManageLead</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageLead@1e04fa0a</td></tr>
-<tr>
-<td title='APITestCase.RolesAndPermissions.deleteRole()'><b>deleteRole</b><br>Test class: APITestCase.RolesAndPermissions</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.RolesAndPermissions@7747cc1b</td></tr>
-<tr>
-<td title='APITestCase.Dashboard.GetQuotationAnalytics()'><b>GetQuotationAnalytics</b><br>Test class: APITestCase.Dashboard</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.Dashboard@76cf91c9</td></tr>
-<tr>
-<td title='MSNagile.SetupConfiguration.CreateFields()'><b>CreateFields</b><br>Test class: MSNagile.SetupConfiguration</td>
-<td></td>
-<td>0</td>
-<td>MSNagile.SetupConfiguration@76eadc5a</td></tr>
-<tr>
-<td title='APITestCase.Dashboard.ExportQuotationAnalytics()'><b>ExportQuotationAnalytics</b><br>Test class: APITestCase.Dashboard</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.Dashboard@76cf91c9</td></tr>
-<tr>
-<td title='MSNagile.Login.GetProfile()'><b>GetProfile</b><br>Test class: MSNagile.Login</td>
-<td></td>
-<td>0</td>
-<td>MSNagile.Login@6fc7e828</td></tr>
-<tr>
-<td title='APITestCase.Dashboard.GetDashboardData()'><b>GetDashboardData</b><br>Test class: APITestCase.Dashboard</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.Dashboard@76cf91c9</td></tr>
-<tr>
-<td title='MSNagile.Login.ResetPassword()'><b>ResetPassword</b><br>Test class: MSNagile.Login</td>
-<td></td>
-<td>0</td>
-<td>MSNagile.Login@6fc7e828</td></tr>
-<tr>
-<td title='MSNagile.ManageUsersAndGroups.DeleteGroup()'><b>DeleteGroup</b><br>Test class: MSNagile.ManageUsersAndGroups</td>
-<td></td>
-<td>0</td>
-<td>MSNagile.ManageUsersAndGroups@26bce60d</td></tr>
-<tr>
-<td title='APITestCase.ManageQuotation.ExportQuotation()'><b>ExportQuotation</b><br>Test class: APITestCase.ManageQuotation</td>
-<td></td>
-<td>5</td>
-<td>APITestCase.ManageQuotation@26f480c6</td></tr>
-<tr>
-<td title='MSNagile.ManageSubscription.GetPaymentHistory()'><b>GetPaymentHistory</b><br>Test class: MSNagile.ManageSubscription</td>
-<td></td>
-<td>0</td>
-<td>MSNagile.ManageSubscription@2ce24a1a</td></tr>
-<tr>
-<td title='APITestCase.ManageInventory.DeleteImage()'><b>DeleteImage</b><br>Test class: APITestCase.ManageInventory</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageInventory@1af2d44a</td></tr>
-<tr>
-<td title='MSNagile.Login.ForgotPassword()'><b>ForgotPassword</b><br>Test class: MSNagile.Login</td>
-<td></td>
-<td>4</td>
-<td>MSNagile.Login@6fc7e828</td></tr>
-<tr>
-<td title='MSNagile.SetupConfiguration.GetAllStatus()'><b>GetAllStatus</b><br>Test class: MSNagile.SetupConfiguration</td>
-<td></td>
-<td>0</td>
-<td>MSNagile.SetupConfiguration@76eadc5a</td></tr>
-<tr>
-<td title='APITestCase.ManageInventory.AddInventory()'><b>AddInventory</b><br>Test class: APITestCase.ManageInventory</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageInventory@1af2d44a</td></tr>
-<tr>
-<td title='APITestCase.ManageQuotation.ConvertToOrder()'><b>ConvertToOrder</b><br>Test class: APITestCase.ManageQuotation</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageQuotation@26f480c6</td></tr>
-<tr>
-<td title='APITestCase.Dashboard.GetOverDueTask()'><b>GetOverDueTask</b><br>Test class: APITestCase.Dashboard</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.Dashboard@76cf91c9</td></tr>
-<tr>
-<td title='APITestCase.ManageLead.GetLeadStage()'><b>GetLeadStage</b><br>Test class: APITestCase.ManageLead</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageLead@1e04fa0a</td></tr>
-<tr>
-<td title='APITestCase.Login.LoginWithOtp()'><b>LoginWithOtp</b><br>Test class: APITestCase.Login</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.Login@1a18644</td></tr>
-<tr>
-<td title='MSNagile.ManageUsersAndGroups.GetAllRoles()'><b>GetAllRoles</b><br>Test class: MSNagile.ManageUsersAndGroups</td>
-<td></td>
-<td>0</td>
-<td>MSNagile.ManageUsersAndGroups@26bce60d</td></tr>
-<tr>
-<td title='APITestCase.ManageQuotation.UpdateBillingAddress()'><b>UpdateBillingAddress</b><br>Test class: APITestCase.ManageQuotation</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageQuotation@26f480c6</td></tr>
-<tr>
-<td title='APITestCase.ManageUser.GetUser()'><b>GetUser</b><br>Test class: APITestCase.ManageUser</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageUser@66d3eec0</td></tr>
-<tr>
-<td title='APITestCase.RolesAndPermissions.editRole()'><b>editRole</b><br>Test class: APITestCase.RolesAndPermissions</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.RolesAndPermissions@7747cc1b</td></tr>
-<tr>
-<td title='APITestCase.Dashboard.LeadConversionReport()'><b>LeadConversionReport</b><br>Test class: APITestCase.Dashboard</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.Dashboard@76cf91c9</td></tr>
-<tr>
-<td title='MSNagile.ManageUsersAndGroups.InviteUser()'><b>InviteUser</b><br>Test class: MSNagile.ManageUsersAndGroups</td>
-<td></td>
-<td>0</td>
-<td>MSNagile.ManageUsersAndGroups@26bce60d</td></tr>
-<tr>
-<td title='APITestCase.ManageUser.GetBranches()'><b>GetBranches</b><br>Test class: APITestCase.ManageUser</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageUser@66d3eec0</td></tr>
-<tr>
-<td title='APITestCase.ManageUser.ExportUser()'><b>ExportUser</b><br>Test class: APITestCase.ManageUser</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageUser@66d3eec0</td></tr>
-<tr>
-<td title='APITestCase.ManageLead.GetLeadActivity()'><b>GetLeadActivity</b><br>Test class: APITestCase.ManageLead</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageLead@1e04fa0a</td></tr>
-<tr>
-<td title='MSNagile.ManageSubscription.GetActivePlan()'><b>GetActivePlan</b><br>Test class: MSNagile.ManageSubscription</td>
-<td></td>
-<td>0</td>
-<td>MSNagile.ManageSubscription@2ce24a1a</td></tr>
-<tr>
-<td title='APITestCase.ManageProfile.testUpdateUserProfile()'><b>testUpdateUserProfile</b><br>Test class: APITestCase.ManageProfile</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageProfile@2567c091</td></tr>
-<tr>
-<td title='APITestCase.RolesAndPermissions.editRoleName()'><b>editRoleName</b><br>Test class: APITestCase.RolesAndPermissions</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.RolesAndPermissions@7747cc1b</td></tr>
-<tr>
-<td title='APITestCase.Dashboard.ExportLeadGenerationSources()'><b>ExportLeadGenerationSources</b><br>Test class: APITestCase.Dashboard</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.Dashboard@76cf91c9</td></tr>
-<tr>
-<td title='MSNagile.ManageUsersAndGroups.GetAllUsersAndDeactivateIfActive()'><b>GetAllUsersAndDeactivateIfActive</b><br>Test class: MSNagile.ManageUsersAndGroups</td>
-<td></td>
-<td>0</td>
-<td>MSNagile.ManageUsersAndGroups@26bce60d</td></tr>
-<tr>
-<td title='APITestCase.ManageProfile.testChangePassword()'><b>testChangePassword</b><br>Test class: APITestCase.ManageProfile</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageProfile@2567c091</td></tr>
-<tr>
-<td title='MSNagile.ManageOrganization.Login()'><b>Login</b><br>Test class: MSNagile.ManageOrganization</td>
-<td></td>
-<td>0</td>
-<td>MSNagile.ManageOrganization@26a9c6df</td></tr>
-<tr>
-<td title='APITestCase.ManageQuotation.DeleteQuotation()'><b>DeleteQuotation</b><br>Test class: APITestCase.ManageQuotation</td>
-<td></td>
-<td>0</td>
-<td>APITestCase.ManageQuotation@26f480c6</td></tr>
+<td>MSNagile.ManageSubscription@26bce60d</td></tr>
 <tr>
 <td title='MSNagile.SetupConfiguration.GetSystemIssueType()'><b>GetSystemIssueType</b><br>Test class: MSNagile.SetupConfiguration</td>
 <td></td>
 <td>0</td>
-<td>MSNagile.SetupConfiguration@76eadc5a</td></tr>
+<td>MSNagile.SetupConfiguration@1e9d7366</td></tr>
 <tr>
-<td title='MSNagile.SetupConfiguration.Login()'><b>Login</b><br>Test class: MSNagile.SetupConfiguration</td>
+<td title='APITestCase.ManageInquiry.ExportInquiry()'><b>ExportInquiry</b><br>Test class: APITestCase.ManageInquiry</td>
 <td></td>
 <td>0</td>
-<td>MSNagile.SetupConfiguration@76eadc5a</td></tr>
+<td>APITestCase.ManageInquiry@6fc7e828</td></tr>
 <tr>
-<td title='APITestCase.Login.ResetPassword()'><b>ResetPassword</b><br>Test class: APITestCase.Login</td>
+<td title='APITestCase.Dashboard.StockCheckAnalytics()'><b>StockCheckAnalytics</b><br>Test class: APITestCase.Dashboard</td>
 <td></td>
 <td>0</td>
-<td>APITestCase.Login@1a18644</td></tr>
+<td>APITestCase.Dashboard@74bfdd66</td></tr>
+<tr>
+<td title='APITestCase.RolesAndPermissions.createRole()'><b>createRole</b><br>Test class: APITestCase.RolesAndPermissions</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.RolesAndPermissions@76cf91c9</td></tr>
+<tr>
+<td title='MSNagile.Login.Registration()'><b>Registration</b><br>Test class: MSNagile.Login</td>
+<td></td>
+<td>8</td>
+<td>MSNagile.Login@26a9c6df</td></tr>
+<tr>
+<td title='MSNagile.ManageUsersAndGroups.InviteUser()'><b>InviteUser</b><br>Test class: MSNagile.ManageUsersAndGroups</td>
+<td></td>
+<td>1</td>
+<td>MSNagile.ManageUsersAndGroups@76eadc5a</td></tr>
+<tr>
+<td title='MSNagile.Login.ForgotPassword()'><b>ForgotPassword</b><br>Test class: MSNagile.Login</td>
+<td></td>
+<td>4</td>
+<td>MSNagile.Login@26a9c6df</td></tr>
+<tr>
+<td title='APITestCase.ManageProfile.testUploadProfileImage()'><b>testUploadProfileImage</b><br>Test class: APITestCase.ManageProfile</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageProfile@7747cc1b</td></tr>
+<tr>
+<td title='APITestCase.ManageLead.DeleteAttachment()'><b>DeleteAttachment</b><br>Test class: APITestCase.ManageLead</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageLead@1af2d44a</td></tr>
+<tr>
+<td title='APITestCase.ManageInventory.AddInventory()'><b>AddInventory</b><br>Test class: APITestCase.ManageInventory</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageInventory@18d87d80</td></tr>
+<tr>
+<td title='APITestCase.RolesAndPermissions.editRoleName()'><b>editRoleName</b><br>Test class: APITestCase.RolesAndPermissions</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.RolesAndPermissions@76cf91c9</td></tr>
+<tr>
+<td title='APITestCase.RolesAndPermissions.RoleList()'><b>RoleList</b><br>Test class: APITestCase.RolesAndPermissions</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.RolesAndPermissions@76cf91c9</td></tr>
+<tr>
+<td title='MSNagile.ManageOrganization.GetOrgDetail()'><b>GetOrgDetail</b><br>Test class: MSNagile.ManageOrganization</td>
+<td></td>
+<td>0</td>
+<td>MSNagile.ManageOrganization@2ce24a1a</td></tr>
+<tr>
+<td title='APITestCase.ManageQuotation.AddQuotation()'><b>AddQuotation</b><br>Test class: APITestCase.ManageQuotation</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageQuotation@2567c091</td></tr>
+<tr>
+<td title='APITestCase.Dashboard.ExportVendorQuickResponse()'><b>ExportVendorQuickResponse</b><br>Test class: APITestCase.Dashboard</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.Dashboard@74bfdd66</td></tr>
+<tr>
+<td title='MSNagile.ManageUsersAndGroups.GetAllUsers()'><b>GetAllUsers</b><br>Test class: MSNagile.ManageUsersAndGroups</td>
+<td></td>
+<td>0</td>
+<td>MSNagile.ManageUsersAndGroups@76eadc5a</td></tr>
+<tr>
+<td title='APITestCase.ManageQuotation.ExportQuotation()'><b>ExportQuotation</b><br>Test class: APITestCase.ManageQuotation</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageQuotation@2567c091</td></tr>
+<tr>
+<td title='APITestCase.ManageQuotation.AddLead()'><b>AddLead</b><br>Test class: APITestCase.ManageQuotation</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageQuotation@2567c091</td></tr>
+<tr>
+<td title='APITestCase.ManageUser.AddUser()'><b>AddUser</b><br>Test class: APITestCase.ManageUser</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageUser@1e04fa0a</td></tr>
+<tr>
+<td title='APITestCase.Dashboard.ExportLeadOverDueTask()'><b>ExportLeadOverDueTask</b><br>Test class: APITestCase.Dashboard</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.Dashboard@74bfdd66</td></tr>
+<tr>
+<td title='APITestCase.ManageUser.GetVendorCompany()'><b>GetVendorCompany</b><br>Test class: APITestCase.ManageUser</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageUser@1e04fa0a</td></tr>
+<tr>
+<td title='MSNagile.Login.Logout()'><b>Logout</b><br>Test class: MSNagile.Login</td>
+<td></td>
+<td>0</td>
+<td>MSNagile.Login@26a9c6df</td></tr>
+<tr>
+<td title='APITestCase.ManageUser.UpdateUser()'><b>UpdateUser</b><br>Test class: APITestCase.ManageUser</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageUser@1e04fa0a</td></tr>
+<tr>
+<td title='APITestCase.ManageUser.ResetPassword()'><b>ResetPassword</b><br>Test class: APITestCase.ManageUser</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageUser@1e04fa0a</td></tr>
+<tr>
+<td title='MSNagile.ManageUsersAndGroups.GetAllGroups()'><b>GetAllGroups</b><br>Test class: MSNagile.ManageUsersAndGroups</td>
+<td></td>
+<td>0</td>
+<td>MSNagile.ManageUsersAndGroups@76eadc5a</td></tr>
+<tr>
+<td title='APITestCase.ManageQuotation.UpdateShippingAddress()'><b>UpdateShippingAddress</b><br>Test class: APITestCase.ManageQuotation</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageQuotation@2567c091</td></tr>
+<tr>
+<td title='APITestCase.ManageInventory.AddProductImage()'><b>AddProductImage</b><br>Test class: APITestCase.ManageInventory</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageInventory@18d87d80</td></tr>
+<tr>
+<td title='APITestCase.ManageInventory.UpdateProduct()'><b>UpdateProduct</b><br>Test class: APITestCase.ManageInventory</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageInventory@18d87d80</td></tr>
+<tr>
+<td title='APITestCase.ManageQuotation.AddShippingAddress()'><b>AddShippingAddress</b><br>Test class: APITestCase.ManageQuotation</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageQuotation@2567c091</td></tr>
+<tr>
+<td title='APITestCase.ManageLead.MarkLeadAsStar()'><b>MarkLeadAsStar</b><br>Test class: APITestCase.ManageLead</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageLead@1af2d44a</td></tr>
+<tr>
+<td title='APITestCase.ManageInquiry.GetVendorInquiry()'><b>GetVendorInquiry</b><br>Test class: APITestCase.ManageInquiry</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageInquiry@6fc7e828</td></tr>
+<tr>
+<td title='MSNagile.ManageUsersAndGroups.GetAllUsersAndDeactivateIfActive()'><b>GetAllUsersAndDeactivateIfActive</b><br>Test class: MSNagile.ManageUsersAndGroups</td>
+<td></td>
+<td>0</td>
+<td>MSNagile.ManageUsersAndGroups@76eadc5a</td></tr>
+<tr>
+<td title='APITestCase.ManageUser.RoleList()'><b>RoleList</b><br>Test class: APITestCase.ManageUser</td>
+<td></td>
+<td>1</td>
+<td>APITestCase.ManageUser@1e04fa0a</td></tr>
+<tr>
+<td title='APITestCase.ManageInquiry.UpdateInquiryStatus()'><b>UpdateInquiryStatus</b><br>Test class: APITestCase.ManageInquiry</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageInquiry@6fc7e828</td></tr>
+<tr>
+<td title='APITestCase.ManageInventory.GetInventory()'><b>GetInventory</b><br>Test class: APITestCase.ManageInventory</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageInventory@18d87d80</td></tr>
+<tr>
+<td title='MSNagile.ManageUsersAndGroups.Login()'><b>Login</b><br>Test class: MSNagile.ManageUsersAndGroups</td>
+<td></td>
+<td>0</td>
+<td>MSNagile.ManageUsersAndGroups@76eadc5a</td></tr>
+<tr>
+<td title='APITestCase.Dashboard.GetQuotationAnalytics()'><b>GetQuotationAnalytics</b><br>Test class: APITestCase.Dashboard</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.Dashboard@74bfdd66</td></tr>
 <tr>
 <td title='MSNagile.ManageUsersAndGroups.UpdateGroup()'><b>UpdateGroup</b><br>Test class: MSNagile.ManageUsersAndGroups</td>
 <td></td>
 <td>0</td>
-<td>MSNagile.ManageUsersAndGroups@26bce60d</td></tr>
+<td>MSNagile.ManageUsersAndGroups@76eadc5a</td></tr>
+<tr>
+<td title='MSNagile.ManageSubscription.GetConsumedStorage()'><b>GetConsumedStorage</b><br>Test class: MSNagile.ManageSubscription</td>
+<td></td>
+<td>0</td>
+<td>MSNagile.ManageSubscription@26bce60d</td></tr>
+<tr>
+<td title='APITestCase.Dashboard.ExportVendorPoorResponse()'><b>ExportVendorPoorResponse</b><br>Test class: APITestCase.Dashboard</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.Dashboard@74bfdd66</td></tr>
+<tr>
+<td title='APITestCase.Login.OtpVerification()'><b>OtpVerification</b><br>Test class: APITestCase.Login</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.Login@5acf93bb</td></tr>
+<tr>
+<td title='APITestCase.ManageUser.ResendPassword()'><b>ResendPassword</b><br>Test class: APITestCase.ManageUser</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageUser@1e04fa0a</td></tr>
+<tr>
+<td title='APITestCase.ManageLead.GetLeadStage()'><b>GetLeadStage</b><br>Test class: APITestCase.ManageLead</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageLead@1af2d44a</td></tr>
+<tr>
+<td title='APITestCase.ManageQuotation.ConvertToOrder()'><b>ConvertToOrder</b><br>Test class: APITestCase.ManageQuotation</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageQuotation@2567c091</td></tr>
+<tr>
+<td title='MSNagile.SetupConfiguration.CreateFields()'><b>CreateFields</b><br>Test class: MSNagile.SetupConfiguration</td>
+<td></td>
+<td>0</td>
+<td>MSNagile.SetupConfiguration@1e9d7366</td></tr>
+<tr>
+<td title='MSNagile.SetupConfiguration.Login()'><b>Login</b><br>Test class: MSNagile.SetupConfiguration</td>
+<td></td>
+<td>0</td>
+<td>MSNagile.SetupConfiguration@1e9d7366</td></tr>
+<tr>
+<td title='APITestCase.ManageQuotation.GetQuotation()'><b>GetQuotation</b><br>Test class: APITestCase.ManageQuotation</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageQuotation@2567c091</td></tr>
+<tr>
+<td title='APITestCase.Login.TestResetPassword()'><b>TestResetPassword</b><br>Test class: APITestCase.Login</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.Login@5acf93bb</td></tr>
+<tr>
+<td title='APITestCase.Login.UserProfile()'><b>UserProfile</b><br>Test class: APITestCase.Login</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.Login@5acf93bb</td></tr>
+<tr>
+<td title='APITestCase.ManageLead.AddTaskForLead()'><b>AddTaskForLead</b><br>Test class: APITestCase.ManageLead</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageLead@1af2d44a</td></tr>
+<tr>
+<td title='APITestCase.Dashboard.LeadConversionReport()'><b>LeadConversionReport</b><br>Test class: APITestCase.Dashboard</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.Dashboard@74bfdd66</td></tr>
 <tr>
 <td title='MSNagile.SetupConfiguration.DeleteStatus()'><b>DeleteStatus</b><br>Test class: MSNagile.SetupConfiguration</td>
 <td></td>
 <td>0</td>
-<td>MSNagile.SetupConfiguration@76eadc5a</td></tr>
+<td>MSNagile.SetupConfiguration@1e9d7366</td></tr>
+<tr>
+<td title='APITestCase.ManageQuotation.QuotationDetail()'><b>QuotationDetail</b><br>Test class: APITestCase.ManageQuotation</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageQuotation@2567c091</td></tr>
+<tr>
+<td title='APITestCase.Dashboard.ExportLeadGenerationSources()'><b>ExportLeadGenerationSources</b><br>Test class: APITestCase.Dashboard</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.Dashboard@74bfdd66</td></tr>
+<tr>
+<td title='APITestCase.ManageInventory.DeleteImage()'><b>DeleteImage</b><br>Test class: APITestCase.ManageInventory</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageInventory@18d87d80</td></tr>
+<tr>
+<td title='APITestCase.ManageLead.RescheduleTask()'><b>RescheduleTask</b><br>Test class: APITestCase.ManageLead</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageLead@1af2d44a</td></tr>
+<tr>
+<td title='MSNagile.SetupConfiguration.GetOrgFields()'><b>GetOrgFields</b><br>Test class: MSNagile.SetupConfiguration</td>
+<td></td>
+<td>0</td>
+<td>MSNagile.SetupConfiguration@1e9d7366</td></tr>
+<tr>
+<td title='APITestCase.Login.Logout()'><b>Logout</b><br>Test class: APITestCase.Login</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.Login@5acf93bb</td></tr>
+<tr>
+<td title='MSNagile.ManageSubscription.GetPaymentHistory()'><b>GetPaymentHistory</b><br>Test class: MSNagile.ManageSubscription</td>
+<td></td>
+<td>0</td>
+<td>MSNagile.ManageSubscription@26bce60d</td></tr>
+<tr>
+<td title='APITestCase.ManageLead.AddLeadActivity()'><b>AddLeadActivity</b><br>Test class: APITestCase.ManageLead</td>
+<td></td>
+<td>1</td>
+<td>APITestCase.ManageLead@1af2d44a</td></tr>
+<tr>
+<td title='MSNagile.ManageUsersAndGroups.GetAllRoles()'><b>GetAllRoles</b><br>Test class: MSNagile.ManageUsersAndGroups</td>
+<td></td>
+<td>0</td>
+<td>MSNagile.ManageUsersAndGroups@76eadc5a</td></tr>
+<tr>
+<td title='MSNagile.Login.Login()'><b>Login</b><br>Test class: MSNagile.Login</td>
+<td></td>
+<td>0</td>
+<td>MSNagile.Login@26a9c6df</td></tr>
+<tr>
+<td title='APITestCase.ManageQuotation.UpdateBillingAddress()'><b>UpdateBillingAddress</b><br>Test class: APITestCase.ManageQuotation</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageQuotation@2567c091</td></tr>
+<tr>
+<td title='MSNagile.SetupConfiguration.GetAllStatus()'><b>GetAllStatus</b><br>Test class: MSNagile.SetupConfiguration</td>
+<td></td>
+<td>0</td>
+<td>MSNagile.SetupConfiguration@1e9d7366</td></tr>
+<tr>
+<td title='APITestCase.Dashboard.ExportNotYetConvertedQuotation()'><b>ExportNotYetConvertedQuotation</b><br>Test class: APITestCase.Dashboard</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.Dashboard@74bfdd66</td></tr>
+<tr>
+<td title='APITestCase.Dashboard.ExportVendorStrikeRate()'><b>ExportVendorStrikeRate</b><br>Test class: APITestCase.Dashboard</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.Dashboard@74bfdd66</td></tr>
+<tr>
+<td title='MSNagile.ManageUsersAndGroups.AssignGroupToUser()'><b>AssignGroupToUser</b><br>Test class: MSNagile.ManageUsersAndGroups</td>
+<td></td>
+<td>0</td>
+<td>MSNagile.ManageUsersAndGroups@76eadc5a</td></tr>
+<tr>
+<td title='APITestCase.Login.LoginWithPassword()'><b>LoginWithPassword</b><br>Test class: APITestCase.Login</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.Login@5acf93bb</td></tr>
+<tr>
+<td title='APITestCase.ManageLead.GetLeadActivity()'><b>GetLeadActivity</b><br>Test class: APITestCase.ManageLead</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageLead@1af2d44a</td></tr>
 <tr>
 <td title='APITestCase.ManageLead.MarkTaskAsCompleted()'><b>MarkTaskAsCompleted</b><br>Test class: APITestCase.ManageLead</td>
 <td></td>
 <td>0</td>
-<td>APITestCase.ManageLead@1e04fa0a</td></tr>
+<td>APITestCase.ManageLead@1af2d44a</td></tr>
+<tr>
+<td title='APITestCase.ManageQuotation.UpdateQuotation()'><b>UpdateQuotation</b><br>Test class: APITestCase.ManageQuotation</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageQuotation@2567c091</td></tr>
+<tr>
+<td title='MSNagile.ManageSubscription.Login()'><b>Login</b><br>Test class: MSNagile.ManageSubscription</td>
+<td></td>
+<td>0</td>
+<td>MSNagile.ManageSubscription@26bce60d</td></tr>
+<tr>
+<td title='APITestCase.ManageLead.GetLeadOwner()'><b>GetLeadOwner</b><br>Test class: APITestCase.ManageLead</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageLead@1af2d44a</td></tr>
+<tr>
+<td title='APITestCase.ManageLead.UploadLeadAttachment()'><b>UploadLeadAttachment</b><br>Test class: APITestCase.ManageLead</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageLead@1af2d44a</td></tr>
+<tr>
+<td title='APITestCase.ManageQuotation.AddBillingAddress()'><b>AddBillingAddress</b><br>Test class: APITestCase.ManageQuotation</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageQuotation@2567c091</td></tr>
+<tr>
+<td title='APITestCase.RolesAndPermissions.deleteRole()'><b>deleteRole</b><br>Test class: APITestCase.RolesAndPermissions</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.RolesAndPermissions@76cf91c9</td></tr>
+<tr>
+<td title='MSNagile.Login.RefreshToken()'><b>RefreshToken</b><br>Test class: MSNagile.Login</td>
+<td></td>
+<td>0</td>
+<td>MSNagile.Login@26a9c6df</td></tr>
+<tr>
+<td title='MSNagile.ManageOrganization.Login()'><b>Login</b><br>Test class: MSNagile.ManageOrganization</td>
+<td></td>
+<td>0</td>
+<td>MSNagile.ManageOrganization@2ce24a1a</td></tr>
+<tr>
+<td title='APITestCase.ManageLead.GetStates()'><b>GetStates</b><br>Test class: APITestCase.ManageLead</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageLead@1af2d44a</td></tr>
+<tr>
+<td title='APITestCase.ManageQuotation.RecheckStock()'><b>RecheckStock</b><br>Test class: APITestCase.ManageQuotation</td>
+<td></td>
+<td>2</td>
+<td>APITestCase.ManageQuotation@2567c091</td></tr>
+<tr>
+<td title='APITestCase.ManageLead.ExportLeads()'><b>ExportLeads</b><br>Test class: APITestCase.ManageLead</td>
+<td></td>
+<td>2</td>
+<td>APITestCase.ManageLead@1af2d44a</td></tr>
+<tr>
+<td title='APITestCase.ManageLead.GetLeadHistory()'><b>GetLeadHistory</b><br>Test class: APITestCase.ManageLead</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageLead@1af2d44a</td></tr>
+<tr>
+<td title='MSNagile.Login.ResetPassword()'><b>ResetPassword</b><br>Test class: MSNagile.Login</td>
+<td></td>
+<td>0</td>
+<td>MSNagile.Login@26a9c6df</td></tr>
+<tr>
+<td title='MSNagile.ManageUsersAndGroups.CreateGroup()'><b>CreateGroup</b><br>Test class: MSNagile.ManageUsersAndGroups</td>
+<td></td>
+<td>0</td>
+<td>MSNagile.ManageUsersAndGroups@76eadc5a</td></tr>
+<tr>
+<td title='MSNagile.Login.EmailVerification()'><b>EmailVerification</b><br>Test class: MSNagile.Login</td>
+<td></td>
+<td>0</td>
+<td>MSNagile.Login@26a9c6df</td></tr>
+<tr>
+<td title='MSNagile.ManageUsersAndGroups.DeleteGroup()'><b>DeleteGroup</b><br>Test class: MSNagile.ManageUsersAndGroups</td>
+<td></td>
+<td>0</td>
+<td>MSNagile.ManageUsersAndGroups@76eadc5a</td></tr>
+<tr>
+<td title='MSNagile.ManageOrganization.GetTaxIdTypes()'><b>GetTaxIdTypes</b><br>Test class: MSNagile.ManageOrganization</td>
+<td></td>
+<td>0</td>
+<td>MSNagile.ManageOrganization@2ce24a1a</td></tr>
+<tr>
+<td title='APITestCase.ManageLead.addUserAndVerifyInGetAllLeads()'><b>addUserAndVerifyInGetAllLeads</b><br>Test class: APITestCase.ManageLead</td>
+<td></td>
+<td>2</td>
+<td>APITestCase.ManageLead@1af2d44a</td></tr>
+<tr>
+<td title='MSNagile.ManageOrganization.UpdateOrg()'><b>UpdateOrg</b><br>Test class: MSNagile.ManageOrganization</td>
+<td></td>
+<td>0</td>
+<td>MSNagile.ManageOrganization@2ce24a1a</td></tr>
+<tr>
+<td title='MSNagile.SetupConfiguration.CreateIssueType()'><b>CreateIssueType</b><br>Test class: MSNagile.SetupConfiguration</td>
+<td></td>
+<td>0</td>
+<td>MSNagile.SetupConfiguration@1e9d7366</td></tr>
+<tr>
+<td title='APITestCase.ManageLead.GetLeadDetails()'><b>GetLeadDetails</b><br>Test class: APITestCase.ManageLead</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageLead@1af2d44a</td></tr>
+<tr>
+<td title='APITestCase.ManageLead.UpdateLead()'><b>UpdateLead</b><br>Test class: APITestCase.ManageLead</td>
+<td></td>
+<td>1</td>
+<td>APITestCase.ManageLead@1af2d44a</td></tr>
+<tr>
+<td title='APITestCase.RolesAndPermissions.editRole()'><b>editRole</b><br>Test class: APITestCase.RolesAndPermissions</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.RolesAndPermissions@76cf91c9</td></tr>
+<tr>
+<td title='APITestCase.ManageQuotation.DeleteQuotation()'><b>DeleteQuotation</b><br>Test class: APITestCase.ManageQuotation</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageQuotation@2567c091</td></tr>
+<tr>
+<td title='APITestCase.Dashboard.ExportLeadConversionReport()'><b>ExportLeadConversionReport</b><br>Test class: APITestCase.Dashboard</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.Dashboard@74bfdd66</td></tr>
+<tr>
+<td title='APITestCase.Login.LoginWithOtp()'><b>LoginWithOtp</b><br>Test class: APITestCase.Login</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.Login@5acf93bb</td></tr>
+<tr>
+<td title='MSNagile.SetupConfiguration.CreateStatus()'><b>CreateStatus</b><br>Test class: MSNagile.SetupConfiguration</td>
+<td></td>
+<td>0</td>
+<td>MSNagile.SetupConfiguration@1e9d7366</td></tr>
+<tr>
+<td title='APITestCase.ManageProfile.testGetUserProfile()'><b>testGetUserProfile</b><br>Test class: APITestCase.ManageProfile</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageProfile@7747cc1b</td></tr>
+<tr>
+<td title='APITestCase.Dashboard.GetOverDueTask()'><b>GetOverDueTask</b><br>Test class: APITestCase.Dashboard</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.Dashboard@74bfdd66</td></tr>
+<tr>
+<td title='APITestCase.ManageLead.CheckLeadNumbers()'><b>CheckLeadNumbers</b><br>Test class: APITestCase.ManageLead</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageLead@1af2d44a</td></tr>
+<tr>
+<td title='APITestCase.Dashboard.ExportQuotationAnalytics()'><b>ExportQuotationAnalytics</b><br>Test class: APITestCase.Dashboard</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.Dashboard@74bfdd66</td></tr>
+<tr>
+<td title='APITestCase.ManageUser.UsersCount()'><b>UsersCount</b><br>Test class: APITestCase.ManageUser</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageUser@1e04fa0a</td></tr>
+<tr>
+<td title='APITestCase.ManageUser.GetUser()'><b>GetUser</b><br>Test class: APITestCase.ManageUser</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageUser@1e04fa0a</td></tr>
+<tr>
+<td title='APITestCase.ManageUser.UploadUserProfileImage()'><b>UploadUserProfileImage</b><br>Test class: APITestCase.ManageUser</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageUser@1e04fa0a</td></tr>
+<tr>
+<td title='APITestCase.ManageLead.GetTaskByLeadId()'><b>GetTaskByLeadId</b><br>Test class: APITestCase.ManageLead</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageLead@1af2d44a</td></tr>
+<tr>
+<td title='APITestCase.ManageLead.GetLeadTask()'><b>GetLeadTask</b><br>Test class: APITestCase.ManageLead</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageLead@1af2d44a</td></tr>
+<tr>
+<td title='APITestCase.ManageUser.UpdateUserStatus()'><b>UpdateUserStatus</b><br>Test class: APITestCase.ManageUser</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageUser@1e04fa0a</td></tr>
+<tr>
+<td title='APITestCase.Dashboard.GetDashboardData()'><b>GetDashboardData</b><br>Test class: APITestCase.Dashboard</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.Dashboard@74bfdd66</td></tr>
+<tr>
+<td title='MSNagile.SetupConfiguration.GetSystemWorkflows()'><b>GetSystemWorkflows</b><br>Test class: MSNagile.SetupConfiguration</td>
+<td></td>
+<td>0</td>
+<td>MSNagile.SetupConfiguration@1e9d7366</td></tr>
+<tr>
+<td title='APITestCase.ManageUser.GetBranches()'><b>GetBranches</b><br>Test class: APITestCase.ManageUser</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageUser@1e04fa0a</td></tr>
+<tr>
+<td title='APITestCase.ManageProfile.testUpdateUserProfile()'><b>testUpdateUserProfile</b><br>Test class: APITestCase.ManageProfile</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageProfile@7747cc1b</td></tr>
+<tr>
+<td title='APITestCase.ManageUser.ExportUser()'><b>ExportUser</b><br>Test class: APITestCase.ManageUser</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageUser@1e04fa0a</td></tr>
+<tr>
+<td title='APITestCase.RolesAndPermissions.getRoles()'><b>getRoles</b><br>Test class: APITestCase.RolesAndPermissions</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.RolesAndPermissions@76cf91c9</td></tr>
+<tr>
+<td title='APITestCase.RolesAndPermissions.getRoleDetail()'><b>getRoleDetail</b><br>Test class: APITestCase.RolesAndPermissions</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.RolesAndPermissions@76cf91c9</td></tr>
+<tr>
+<td title='APITestCase.ManageLead.GetCity()'><b>GetCity</b><br>Test class: APITestCase.ManageLead</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageLead@1af2d44a</td></tr>
+<tr>
+<td title='APITestCase.ManageLead.GetRequirement()'><b>GetRequirement</b><br>Test class: APITestCase.ManageLead</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageLead@1af2d44a</td></tr>
+<tr>
+<td title='APITestCase.ManageProfile.testChangePassword()'><b>testChangePassword</b><br>Test class: APITestCase.ManageProfile</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageProfile@7747cc1b</td></tr>
+<tr>
+<td title='APITestCase.ManageProfile.testRemoveProfileImage()'><b>testRemoveProfileImage</b><br>Test class: APITestCase.ManageProfile</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageProfile@7747cc1b</td></tr>
+<tr>
+<td title='APITestCase.Dashboard.ExportSalesExecutiveQuotationAnalytics()'><b>ExportSalesExecutiveQuotationAnalytics</b><br>Test class: APITestCase.Dashboard</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.Dashboard@74bfdd66</td></tr>
+<tr>
+<td title='APITestCase.ManageInventory.GetProductDetails()'><b>GetProductDetails</b><br>Test class: APITestCase.ManageInventory</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageInventory@18d87d80</td></tr>
+<tr>
+<td title='APITestCase.Login.ResetPassword()'><b>ResetPassword</b><br>Test class: APITestCase.Login</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.Login@5acf93bb</td></tr>
+<tr>
+<td title='MSNagile.Login.GetProfile()'><b>GetProfile</b><br>Test class: MSNagile.Login</td>
+<td></td>
+<td>0</td>
+<td>MSNagile.Login@26a9c6df</td></tr>
+<tr>
+<td title='MSNagile.SetupConfiguration.GetOrgTags()'><b>GetOrgTags</b><br>Test class: MSNagile.SetupConfiguration</td>
+<td></td>
+<td>0</td>
+<td>MSNagile.SetupConfiguration@1e9d7366</td></tr>
+<tr>
+<td title='MSNagile.ManageSubscription.GetActivePlan()'><b>GetActivePlan</b><br>Test class: MSNagile.ManageSubscription</td>
+<td></td>
+<td>0</td>
+<td>MSNagile.ManageSubscription@26bce60d</td></tr>
+<tr>
+<td title='APITestCase.ManageQuotation.DownloadQuotation()'><b>DownloadQuotation</b><br>Test class: APITestCase.ManageQuotation</td>
+<td></td>
+<td>3</td>
+<td>APITestCase.ManageQuotation@2567c091</td></tr>
+<tr>
+<td title='APITestCase.Dashboard.GetLeadAnalaytics()'><b>GetLeadAnalaytics</b><br>Test class: APITestCase.Dashboard</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.Dashboard@74bfdd66</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='APITestCase.ManageLead.GetLeads()'><b>GetLeads</b><br>Test class: APITestCase.ManageLead</td>
+<td><div><pre>java.lang.Throwable: Method APITestCase.ManageLead.GetLeads() on instance APITestCase.ManageLead@1af2d44a depends on not successfully finished methods 
+[APITestCase.ManageLead.AddLead() on instance APITestCase.ManageLead@1af2d44a]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace493176261", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace493176261'><pre>java.lang.Throwable: Method APITestCase.ManageLead.GetLeads() on instance APITestCase.ManageLead@1af2d44a depends on not successfully finished methods 
+[APITestCase.ManageLead.AddLead() on instance APITestCase.ManageLead@1af2d44a]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>0</td>
+<td>APITestCase.ManageLead@1af2d44a</td></tr>
+<tr>
+<td title='APITestCase.ManageLead.UpdateLeadStage()'><b>UpdateLeadStage</b><br>Test class: APITestCase.ManageLead</td>
+<td><div><pre>java.lang.Throwable: Method APITestCase.ManageLead.UpdateLeadStage() on instance APITestCase.ManageLead@1af2d44a depends on not successfully finished methods 
+[APITestCase.ManageLead.AddLead() on instance APITestCase.ManageLead@1af2d44a]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace365637993", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace365637993'><pre>java.lang.Throwable: Method APITestCase.ManageLead.UpdateLeadStage() on instance APITestCase.ManageLead@1af2d44a depends on not successfully finished methods 
+[APITestCase.ManageLead.AddLead() on instance APITestCase.ManageLead@1af2d44a]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>0</td>
+<td>APITestCase.ManageLead@1af2d44a</td></tr>
 </table><p>
 </body>
 </html>

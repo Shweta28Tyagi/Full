@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="MSNagile.SetupConfiguration">
+      <class name="APITestCase.ManageLead">
         <methods>
           <include name="close"/>
-          <include name="Login"/>
+          <include name="addUserAndVerifyInGetAllLeads"/>
           <include name="setup"/>
-          <include name="CreateStatus"/>
         </methods>
-      </class> <!-- MSNagile.SetupConfiguration -->
+      </class> <!-- APITestCase.ManageLead -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
